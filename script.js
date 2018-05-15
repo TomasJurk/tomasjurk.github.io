@@ -15,7 +15,7 @@ let userPhone = document.getElementById('phNumberInput');
 let userMessage = document.getElementById('messageInput');
 let sendRequestBtn = document.getElementById('btn-send');
 
-
+let isDataSent = false;
 
 function getRandomColor() {
     return `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
@@ -38,18 +38,22 @@ sendRequestBtn.addEventListener('mouseup', function() {
         message: userMessage.value,
         time: new Date().getTime()
     }
-    if(data.user.length > 1 && data.email.length > 1 && data.phone.length > 1 && data.message.length > 3) {
+    if(data.user.length > 1 && data.email.length > 1 && data.phone.length > 1 && data.message.length > 3 && isDataSent === false) {
         firestore.collection('Requests').add(data).then(
+            formFillError.removeAttribute('style'),
             formFillSuccess.style.display='block',
             userName.value = '',
             userEmail.value = '',
             userPhone.value = '',
             userMessage.value = '',
+            isDataSent = true,
             setTimeout(() => {
                 formFillSuccess.removeAttribute('style');
+                isDataSent = false;
             }, 5000)
         );
     } else {
+        formFillSuccess.removeAttribute('style');
         formFillError.style.display='block';
     }
 });
