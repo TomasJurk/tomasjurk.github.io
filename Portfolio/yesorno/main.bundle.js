@@ -59,7 +59,7 @@ var AppRoutingModule = /** @class */ (function () {
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"text-align:center\">\r\n  <h1>\r\n    Ask question for {{ title }}!\r\n  </h1>\r\n  <a href=\"/\">Yes or No</a>\r\n  <a href=\"/ChuckNorris\">Go to Chuck Norris</a>\r\n</div>\r\n<router-outlet></router-outlet>\r\n"
+module.exports = "<div style=\"text-align:center\">\r\n  <h1>\r\n    Ask question for {{ title }}!\r\n  </h1>\r\n  <a routerLink=\"\">Yes or No</a>\r\n  <a routerLink=\"ChuckNorris\">Go to Chuck Norris</a>\r\n</div>\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
