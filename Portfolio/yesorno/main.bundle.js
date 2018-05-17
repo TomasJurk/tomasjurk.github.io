@@ -37,9 +37,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: '', redirectTo: '/Main', pathMatch: 'full' },
-    { path: 'ChuckNorris', component: __WEBPACK_IMPORTED_MODULE_2__chuck_norris_chuck_norris_component__["a" /* ChuckNorrisComponent */] },
-    { path: 'Main', component: __WEBPACK_IMPORTED_MODULE_3__yes_no_yes_no_component__["a" /* YesNoComponent */] }
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_3__yes_no_yes_no_component__["a" /* YesNoComponent */] },
+    { path: 'ChuckNorris', component: __WEBPACK_IMPORTED_MODULE_2__chuck_norris_chuck_norris_component__["a" /* ChuckNorrisComponent */] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -60,7 +59,7 @@ var AppRoutingModule = /** @class */ (function () {
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"text-align:center\">\r\n  <h1>\r\n    Ask question for {{ title }}!\r\n  </h1>\r\n  <a href=\"/Main\">Yes or No</a>\r\n  <a href=\"/ChuckNorris\">Go to Chuck Norris</a>\r\n</div>\r\n<router-outlet></router-outlet>\r\n"
+module.exports = "<div style=\"text-align:center\">\r\n  <h1>\r\n    Ask question for {{ title }}!\r\n  </h1>\r\n  <a href=\"/\">Yes or No</a>\r\n  <a href=\"/ChuckNorris\">Go to Chuck Norris</a>\r\n</div>\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
@@ -158,7 +157,7 @@ var AppModule = /** @class */ (function () {
 /***/ "./src/app/chuck-norris/chuck-norris.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"joke-container\">\r\n    {{ joke?.value }}\r\n</div>"
+module.exports = "<div class=\"joke-container\">\r\n    {{ joke?.value }}\r\n</div>\r\n"
 
 /***/ }),
 
