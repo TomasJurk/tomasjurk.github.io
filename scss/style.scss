@@ -135,10 +135,15 @@ section {
 .my-apps {
     background-color: #f4f4f4;
     padding-bottom: 3rem;
-    .row-el {
-        display: flex;
-        justify-content: center;
-        flex: 1 0 0;
+
+    .container {
+        .row {
+            .row-el {
+                display: flex;
+                justify-content: center;
+                flex: 1 0 0;
+            }
+        }
     }
 
     a {
@@ -153,6 +158,10 @@ section {
             align-items: center;
             border-radius: 2rem;
             margin-bottom: 1rem;
+            box-shadow: 0px 0px 5px 1px #c1c1c1;
+        }
+        .game-pic:hover {
+            box-shadow: 0px 0px 5px 1px blue;
         }
         .suitcase {
             background: url('images/Suitcase.png') no-repeat center center;
@@ -164,6 +173,10 @@ section {
         }
         .keycode {
             background: url('images/keycode.png') no-repeat center center;
+            background-size: cover;
+        }
+        .yesorno {
+            background: url('images/yesorno.png') no-repeat center center;
             background-size: cover;
         }
     }
