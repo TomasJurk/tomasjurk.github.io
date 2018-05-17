@@ -48,10 +48,11 @@ header {
     h1 {
         font-size: 0;
         color: white;
+        text-shadow: 2px 2px black;
 
         .header-hello {
             display: inline-block;
-            font-size: 5rem;
+            font-size: 4.7rem;
         }
 
         .header-greet {
@@ -125,6 +126,10 @@ section {
             }
         }
     }
+}
+
+.can-help {
+    padding-bottom: 3rem;
 }
 
 .my-apps {
@@ -206,7 +211,7 @@ section {
 
         span {
             color: white;
-            text-shadow: 0px 0px;
+            text-shadow: 1px 1px black;
         }
         
         input, textarea {
