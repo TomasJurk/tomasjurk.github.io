@@ -95,11 +95,12 @@ section {
 
 .my-apps {
   background-color: #f4f4f4;
-  padding-bottom: 3rem; }
+  padding-bottom: 2rem; }
   .my-apps .container .row .row-el {
     display: flex;
     justify-content: center;
-    flex: 1 0 0; }
+    flex: 1 0 0;
+    margin-bottom: 1rem; }
   .my-apps a {
     text-decoration: none;
     color: black; }
