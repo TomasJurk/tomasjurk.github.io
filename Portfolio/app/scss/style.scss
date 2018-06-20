@@ -1,0 +1,61 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-width: 320px;
+    padding: 10px 6px;
+    margin: auto;
+    max-width: 780px;
+    overflow: auto;
+    background-color: #333333;
+}
+
+.upperCases {
+    text-transform: uppercase;
+}
+
+header {
+    border-bottom: 1px solid #797977;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 50px;
+        margin: 0 10px 0 14px;
+    }
+    img:first-child {
+        height: 62px;
+    }
+
+    h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    header {
+        .hidden {
+            display: none;
+        }
+    
+        img {
+            margin: 0 10px 0 0;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) and (min-width: 320px) {
+    
+}
