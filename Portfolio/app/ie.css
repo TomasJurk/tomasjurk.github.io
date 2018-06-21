@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+}
+
+.header * {
+    display: inline-block;
+    line-height: 0;
+}
+
+.container {
+    white-space: nowrap;
+}
+
+.container > .card {
+    display: inline-block;
+    white-space: normal;
+}
+
+.container > .card > .card-header > * {
+    display: inline-block;
+}
+
+.container > .card > .card-body > * {
+    display: inline-block;
+}
