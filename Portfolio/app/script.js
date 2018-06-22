@@ -1,5 +1,6 @@
 'use strict';
 
+
 let moviesContainer = document.querySelector('.container');
 let cardLength;
 

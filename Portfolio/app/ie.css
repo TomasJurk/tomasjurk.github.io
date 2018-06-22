@@ -1,9 +1,14 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     text-align: center;
 }
 
 .header * {
     display: inline-block;
+    vertical-align: middle;
     line-height: 0;
 }
 
@@ -11,15 +16,31 @@
     white-space: nowrap;
 }
 
-.container > .card {
+.card {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card * {
+    vertical-align: top;
+}
+
+.card > .card-body > .movie-rating, 
+.card > .card-body > .movie-descr {
+    display: inline-block;
+    white-space: normal;
+    max-width: 80%;
+}
+
+.card > .card-header > * {
     display: inline-block;
     white-space: normal;
 }
 
-.container > .card > .card-header > * {
-    display: inline-block;
+.card > .card-header > .card-header_right * {
+    max-width: 100%;
 }
 
-.container > .card > .card-body > * {
+.card > .card-body > .movie-rating * {
     display: inline-block;
 }

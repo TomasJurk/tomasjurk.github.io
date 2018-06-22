@@ -4,7 +4,6 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 .main {
@@ -18,14 +17,8 @@
   text-transform: uppercase; }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   border-bottom: 1px solid #797977;
   padding-bottom: 10px; }
@@ -40,40 +33,67 @@
     font-size: 30px; }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   overflow-x: auto;
   margin-top: 10px; }
-  .container .card {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 50%;
-    margin: 16px 16px 16px 0;
-    padding: 0 16px;
-    color: white;
-    border-right: 1px solid #797977; }
-    .container .card .card-header {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-      .container .card .card-header img {
-        height: 95px;
-        width: 145px;
-        background-color: white; }
-    .container .card .card-body {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-      .container .card .card-body .movie-rating {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex; }
-  .container .card:last-child {
-    border: none; }
+
+.card {
+  flex: 0 0 auto;
+  width: 50%;
+  margin: 16px 16px 16px 0;
+  padding: 0 16px 16px 16px;
+  color: white;
+  border-right: 1px solid #797977; }
+  .card .card-header {
+    display: flex;
+    margin-bottom: 8px; }
+    .card .card-header img {
+      height: 95px;
+      width: 145px;
+      background-color: #bbbbbb;
+      border: 1px solid #bbbbbb;
+      margin-right: 14px; }
+    .card .card-header .card-header_right {
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .card .card-header p {
+      font-size: 12px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      color: #b1c4d0; }
+    .card .card-header button {
+      background-color: #868684;
+      border: none;
+      width: 75px;
+      height: 20px;
+      border-radius: 2px;
+      color: #b1c4d0;
+      font-size: 12px; }
+  .card .card-body {
+    display: flex; }
+  .card .movie-rating {
+    display: flex;
+    padding-right: 8px;
+    border-right: 1px dashed #797977;
+    min-height: 65px; }
+    .card .movie-rating img {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px; }
+    .card .movie-rating h3 {
+      line-height: 2; }
+  .card .movie-descr {
+    margin-left: 8px;
+    max-width: 80%; }
+    .card .movie-descr p {
+      font-size: 12px;
+      color: #b1c4d0; }
+
+.card:last-child {
+  border: none; }
 
 @media screen and (max-width: 520px) {
   .header .hidden {
@@ -82,6 +102,6 @@
     margin: 0 10px 0 0; } }
 
 @media screen and (max-width: 360px) and (min-width: 320px) {
-  .container .card {
+  .card {
     width: 100%;
     border: none; } }
