@@ -1,5 +1,6 @@
 'use strict';
 
+// Polyfill for indexOf //
 if (!Array.prototype.indexOf) {
 	Array.prototype.indexOf = function indexOf(member, startFrom) {
 	  if (this == null) {
@@ -35,17 +36,51 @@ if (!Array.prototype.indexOf) {
   
 	  return -1;
 	};
-  }
+}
+
+
+// Polyfill for filter //
+if (!Array.prototype.filter) {
+  Array.prototype.filter = function(fun /*, thisp */)
+  {
+    "use strict";
+
+    if (this === void 0 || this === null)
+      throw new TypeError();
+
+    var t = Object(this);
+    var len = t.length >>> 0;
+    if (typeof fun !== "function")
+      throw new TypeError();
+
+    var res = [];
+    var thisp = arguments[1];
+    for (var i = 0; i < len; i++)
+    {
+      if (i in t)
+      {
+        var val = t[i]; // in case fun mutates this
+        if (fun.call(thisp, val, i, t))
+          res.push(val);
+      }
+    }
+
+    return res;
+  };
+}
 
 /////////////////////////////// TODO ////////////////////////////////////////////////
-// get genre - genres[genres.findIndex(x => x.id == 10749)].name returns 'Romance'
-// Padaryti zhanru parodyma
-// padaryti auto slideri
+// Padaryti auto slideri
 // Uzbaigti stailus
 
-var moviesContainer = document.querySelector('.container');
+var moviesContainer = document.querySelector(".container");
 
 var genres = [{"id":28,"name":"Action"},{"id":12,"name":"Adventure"},{"id":16,"name":"Animation"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"},{"id":99,"name":"Documentary"},{"id":18,"name":"Drama"},{"id":10751,"name":"Family"},{"id":14,"name":"Fantasy"},{"id":36,"name":"History"},{"id":27,"name":"Horror"},{"id":10402,"name":"Music"},{"id":9648,"name":"Mystery"},{"id":10749,"name":"Romance"},{"id":878,"name":"Science Fiction"},{"id":10770,"name":"TV Movie"},{"id":53,"name":"Thriller"},{"id":10752,"name":"War"},{"id":37,"name":"Western"}];
+
+var genreID;
+function findGenre(genre) { 
+	return genre.id === genreID;
+}
 
 var isIE = /*@cc_on!@*/false || !!document.documentMode;
 
@@ -53,12 +88,11 @@ var url = "http://api.themoviedb.org/3/movie/top_rated?api_key=d3f09dc36b7dfd224
 
 var request = new XMLHttpRequest();
 
-request.open('GET', url, true);
+request.open("GET", url, true);
 request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
 if(isIE) {
 	request.onreadystatechange = function () {
-		console.log('ar esi cia? Cia IE');
 	
 		var data = JSON.parse(this.responseText);
 	
@@ -66,12 +100,11 @@ if(isIE) {
 			console.log(data.results);
 			createEmelents(data.results);
 		} else {
-			console.log('error');
+			console.log("error");
 		}
 	}
 } else {
 	request.onload = function () {
-		console.log('ar esi cia? KITAS BROUSERIS');
 	
 		var data = JSON.parse(this.response);
 	
@@ -79,7 +112,7 @@ if(isIE) {
 			console.log(data.results);
 			createEmelents(data.results);
 		} else {
-			console.log('error');
+			console.log("error");
 		}
 	}
 }
@@ -87,15 +120,21 @@ if(isIE) {
 
 function createEmelents(movies) {
 	for (var i = 0; i < movies.length; i++) {
-		var newEl = document.createElement('div'), name, arr;
+		var newEl = document.createElement("div"), name, arr;
 		name = "card";
 		arr = newEl.className.split(" ");
 		if (arr.indexOf(name) == -1) {
 			newEl.className += " " + name;
 		}
 	
+		var genresToShow = [];
+		for (var e = 0; e < movies[i].genre_ids.length; e++) {
+			genreID = +movies[i].genre_ids[e];
+			genresToShow.push(genres.filter(findGenre)[0].name);
+		}
+
 		var newElContent = '<div class="card-header"><img src="http://image.tmdb.org/t/p/w300/' + movies[i].backdrop_path + 
-		'" alt="Movie image"><div class="card-header_right"><h3>' + movies[i].title + '</h3><p>genre, genre</p><button>more</button></div></div><div class="card-body"><div class="movie-rating"><img src="img/star.png" alt="Rating star"><h3>' + movies[i].vote_average + '</h3></div><div class="movie-descr"><p>' + movies[i].overview + '</p></div></div>';
+		'" alt="Movie image"><div class="card-header_right"><h3>' + movies[i].title + '</h3><p>' + genresToShow.join(", ") + '</p><button>more</button></div></div><div class="card-body"><div class="movie-rating"><img src="img/star.png" alt="Rating star"><h3>' + movies[i].vote_average + '</h3></div><div class="movie-descr"><p>' + movies[i].overview + '</p></div></div>';
 
 		// Struktura FYI, neveikia ant IE backticks.
  		/* var newElContent = `
@@ -124,4 +163,3 @@ function createEmelents(movies) {
 
 
 request.send();
-console.log('End of script');
