@@ -28,11 +28,11 @@
     padding-bottom: 10px;
 
     img {
-        height: 50px;
+        height: calc(1vw + 35px);
         margin: 0 10px 0 14px;
     }
     img:first-child {
-        height: 62px;
+        height: calc(1vw + 45px);
     }
 
     h2 {
@@ -47,16 +47,15 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     margin-top: 10px;
-
+    position: relative;
 }
 
 .card {
     flex: 0 0 auto;
     width: 50%;
-    margin: 16px 1px 0 0;
+    margin-top: 16px;
     padding: 0 16px 16px 16px;
     color: white;
-    border-right: 1px solid #797977;
 
     .card-header {
         display: flex;
@@ -76,8 +75,11 @@
             flex-direction: column;
             justify-content: space-between;
         }
+        h3 {
+            font-size: 15px;
+        }
         p {
-            font-size: 12px;
+            font-size: 10px;
             margin-bottom: 8px;
             text-transform: uppercase;
             color: #b1c4d0;
@@ -118,16 +120,38 @@
         margin-left: 8px;
         max-width: 80%;
         p {
-            font-size: 12px;
+            font-size: 11px;
             color: #b1c4d0;
         }
     }
 }
+.card:nth-child(odd) {
+    border-right: 1px solid #797977;
+}
 .card:last-child {
     border: none;
 }
-@media screen and (max-width: 520px) {
+.slick-prev {
+    left: 44%;
+}
+.slick-next {
+    right: 45%;
+}
+.slick-prev, .slick-next {
+    top: auto;
+    bottom: 0;
+    z-index: 1;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 0px;
+}
+.slick-dots li button:before {
+    color: #868684;
+    opacity: 1;
+}
 
+@media screen and (max-width: 570px) and (min-width: 320px) {
     .header {
         .hidden {
             display: none;
@@ -137,11 +161,7 @@
             margin: 0 10px 0 0;
         }
     }
-}
-
-@media screen and (max-width: 360px) and (min-width: 320px) {
-    .card {
-        width: 100%;
-        border: none;
+    .card:nth-child(odd) {
+        border-right: none;
     }
 }

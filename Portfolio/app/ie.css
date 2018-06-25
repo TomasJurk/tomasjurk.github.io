@@ -19,6 +19,7 @@
 .card {
     display: inline-block;
     vertical-align: top;
+    border-right: 1px solid #797977;
 }
 
 .card * {
@@ -29,7 +30,7 @@
 .card > .card-body > .movie-descr {
     display: inline-block;
     white-space: normal;
-    max-width: 80%;
+    max-width: 75%;
 }
 
 .card > .card-header > * {

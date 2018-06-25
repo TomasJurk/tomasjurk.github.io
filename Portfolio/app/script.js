@@ -38,7 +38,6 @@ if (!Array.prototype.indexOf) {
 	};
 }
 
-
 // Polyfill for filter //
 if (!Array.prototype.filter) {
   Array.prototype.filter = function(fun /*, thisp */)
@@ -73,6 +72,7 @@ if (!Array.prototype.filter) {
 // Padaryti auto slideri
 // Uzbaigti stailus
 
+var mainCont = document.querySelector(".main");
 var moviesContainer = document.querySelector(".container");
 
 var genres = [{"id":28,"name":"Action"},{"id":12,"name":"Adventure"},{"id":16,"name":"Animation"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"},{"id":99,"name":"Documentary"},{"id":18,"name":"Drama"},{"id":10751,"name":"Family"},{"id":14,"name":"Fantasy"},{"id":36,"name":"History"},{"id":27,"name":"Horror"},{"id":10402,"name":"Music"},{"id":9648,"name":"Mystery"},{"id":10749,"name":"Romance"},{"id":878,"name":"Science Fiction"},{"id":10770,"name":"TV Movie"},{"id":53,"name":"Thriller"},{"id":10752,"name":"War"},{"id":37,"name":"Western"}];
@@ -97,7 +97,6 @@ if(isIE) {
 		var data = JSON.parse(this.responseText);
 	
 		if (request.status >= 200 && request.status < 400) {
-			console.log(data.results);
 			createEmelents(data.results);
 		} else {
 			console.log("error");
@@ -109,7 +108,6 @@ if(isIE) {
 		var data = JSON.parse(this.response);
 	
 		if (request.status >= 200 && request.status < 400) {
-			console.log(data.results);
 			createEmelents(data.results);
 		} else {
 			console.log("error");
@@ -119,7 +117,7 @@ if(isIE) {
 
 
 function createEmelents(movies) {
-	for (var i = 0; i < movies.length; i++) {
+	for (var i = 0; i < 10; i++) {
 		var newEl = document.createElement("div"), name, arr;
 		name = "card";
 		arr = newEl.className.split(" ");
@@ -131,7 +129,7 @@ function createEmelents(movies) {
 		for (var e = 0; e < movies[i].genre_ids.length; e++) {
 			genreID = +movies[i].genre_ids[e];
 			genresToShow.push(genres.filter(findGenre)[0].name);
-		}
+		}		
 
 		var newElContent = '<div class="card-header"><img src="http://image.tmdb.org/t/p/w300/' + movies[i].backdrop_path + 
 		'" alt="Movie image"><div class="card-header_right"><h3>' + movies[i].title + '</h3><p>' + genresToShow.join(", ") + '</p><button>more</button></div></div><div class="card-body"><div class="movie-rating"><img src="img/star.png" alt="Rating star"><h3>' + movies[i].vote_average + '</h3></div><div class="movie-descr"><p>' + movies[i].overview + '</p></div></div>';
@@ -142,7 +140,7 @@ function createEmelents(movies) {
 				<img src="http://image.tmdb.org/t/p/w300/${movies[i].backdrop_path}" alt="Movie image">
 				<div class="card-header_right">
 					<h3>${movies[i].title}</h3>
-					<p>genre, genre</p>
+					<p>${genresToShow.join(", ")}</p>
 					<button>more</button>
 				</div>
 			</div>
@@ -159,7 +157,28 @@ function createEmelents(movies) {
 		newEl.innerHTML = newElContent;
 		moviesContainer.appendChild(newEl);
 	}
+	if(!isIE) {
+		$(document).ready(function(){
+			$('.container').slick({
+				infinite: true,
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				autoplay: true,
+				arrows: true,
+				lazyLoad: 'ondemand',
+				responsive: [
+					{
+						breakpoint: 570,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							dots: true
+						}
+					}
+				]
+			});
+		});
+	}
 }
-
 
 request.send();
