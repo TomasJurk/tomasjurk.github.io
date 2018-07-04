@@ -243,7 +243,7 @@ var DataService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer>\n  <a href=\"https://github.com/\" target=\"_blank\">\n    <img class=\"footer-logo\" src=\"/assets/GitHub-Logo.png\" alt=\"\">\n  </a>\n  <span class=\"spacer\"></span>\n  <div class=\"social-links\">\n    <a href=\"https://www.facebook.com/GitHub/\" target=\"_blank\">\n      <i class=\"fab fa-facebook\"></i>\n    </a>\n    <a href=\"https://twitter.com/github\" target=\"_blank\">\n      <i class=\"fab fa-twitter-square\"></i>\n    </a>\n    <a href=\"https://www.instagram.com/github/?hl=en\" target=\"_blank\">\n      <i class=\"fab fa-instagram\"></i>\n    </a>\n  </div>\n</footer>\n"
+module.exports = "<footer>\n  <a href=\"https://github.com/\" target=\"_blank\">\n    <img class=\"footer-logo\" src=\"https://tomjurk.xyz/Portfolio/spApp/assets/GitHub-Logo.png\" alt=\"Logo\">\n  </a>\n  <span class=\"spacer\"></span>\n  <div class=\"social-links\">\n    <a href=\"https://www.facebook.com/GitHub/\" target=\"_blank\">\n      <i class=\"fab fa-facebook\"></i>\n    </a>\n    <a href=\"https://twitter.com/github\" target=\"_blank\">\n      <i class=\"fab fa-twitter-square\"></i>\n    </a>\n    <a href=\"https://www.instagram.com/github/?hl=en\" target=\"_blank\">\n      <i class=\"fab fa-instagram\"></i>\n    </a>\n  </div>\n</footer>\n"
 
 /***/ }),
 
@@ -497,7 +497,7 @@ var HowToComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav>\n  <a routerLink=\"/\">\n    <img class=\"logo\" src=\"/assets/octocat.png\" alt=\"Logo\">\n  </a>\n  <span class=\"spacer\"></span>\n  <a routerLink=\"/how-to\" class=\"navLink\">how to use</a>\n</nav>\n"
+module.exports = "<nav>\n  <a routerLink=\"/\">\n    <img class=\"logo\" src=\"https://tomjurk.xyz/Portfolio/spApp/assets/octocat.png\" alt=\"Logo\">\n  </a>\n  <span class=\"spacer\"></span>\n  <a routerLink=\"/how-to\" class=\"navLink\">how to use</a>\n</nav>\n"
 
 /***/ }),
 
