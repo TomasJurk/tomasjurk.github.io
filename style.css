@@ -4,13 +4,18 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
   font-family: 'Montserrat', sans-serif; }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 1rem;
   font-size: 0.8rem; }
@@ -21,6 +26,8 @@ nav {
     color: blue; }
   nav ul {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
     nav ul a {
       font-size: 1rem; }
@@ -28,8 +35,13 @@ nav {
 header {
   background: url(images/spacex.jpg) no-repeat center bottom;
   background-size: cover;
+  -webkit-box-shadow: 0px 14px 50px 0px black;
   box-shadow: 0px 14px 50px 0px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding: 5rem 2rem; }
   header h1 {
@@ -46,8 +58,15 @@ header {
     width: 1.3rem; }
 
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 3rem; }
 
@@ -72,12 +91,19 @@ section {
       margin: auto;
       text-align: center; }
   .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 -1rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
     .container .row .row-el {
       padding: 0 1rem;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
       flex: 0 0 33.33%;
       max-width: 33.33%;
       text-align: center; }
@@ -96,25 +122,47 @@ section {
 .my-apps {
   background-color: #f4f4f4;
   padding-bottom: 2rem; }
-  .my-apps .container .row .row-el {
-    display: flex;
-    justify-content: center;
-    flex: 1 0 0;
-    margin-bottom: 1rem; }
+  .my-apps .container .row {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+    .my-apps .container .row .row-el {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+      flex: 1 0 0;
+      margin-bottom: 1rem; }
+    .my-apps .container .row .row-el::hover {
+      z-index: 111; }
   .my-apps a {
     text-decoration: none;
     color: black; }
     .my-apps a .game-pic {
       width: 12rem;
       height: 12rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       border-radius: 2rem;
       margin-bottom: 1rem;
+      -webkit-box-shadow: 0px 0px 5px 1px #c1c1c1;
       box-shadow: 0px 0px 5px 1px #c1c1c1; }
     .my-apps a .game-pic:hover {
+      -webkit-box-shadow: 0px 0px 5px 1px blue;
       box-shadow: 0px 0px 5px 1px blue; }
+    .my-apps a .github-api {
+      background: url("images/github-api.png") no-repeat center center;
+      background-size: cover; }
     .my-apps a .suitcase {
       background: url("images/Suitcase.png") no-repeat center center;
       background-size: cover; }
@@ -151,7 +199,12 @@ section {
   .request-form .form {
     max-width: 20rem;
     margin: 2rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     position: relative; }
     .request-form .form span {
@@ -177,6 +230,7 @@ section {
     height: 1px;
     width: 3.5rem;
     background-color: white;
+    -ms-flex-item-align: center;
     align-self: center;
     top: -1rem; }
 
@@ -189,6 +243,11 @@ footer {
   footer .contact-details {
     text-align: center;
     line-height: 1.5; }
+
+@media screen and (max-width: 1366px) {
+  .my-apps .container .row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
 
 @media screen and (max-width: 1024px) {
   :root {
@@ -208,6 +267,8 @@ footer {
     main .container .title span {
       width: 10rem; }
   main .container .row .row-el {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: calc(100% - 2rem);
     padding: 0 1rem; }

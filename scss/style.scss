@@ -138,11 +138,15 @@ section {
 
     .container {
         .row {
+            flex-wrap: nowrap;
             .row-el {
                 display: flex;
                 justify-content: center;
                 flex: 1 0 0;
                 margin-bottom: 1rem;
+            }
+            .row-el::hover {
+                z-index: 111;
             }
         }
     }
@@ -163,6 +167,10 @@ section {
         }
         .game-pic:hover {
             box-shadow: 0px 0px 5px 1px blue;
+        }
+        .github-api {
+            background: url('images/github-api.png') no-repeat center center;
+            background-size: cover;
         }
         .suitcase {
             background: url('images/Suitcase.png') no-repeat center center;
@@ -277,6 +285,16 @@ footer {
         line-height: 1.5;
     }
     
+}
+
+@media screen and (max-width: 1366px) {
+    .my-apps {
+        .container {
+            .row {
+                flex-wrap: wrap;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1024px) {
