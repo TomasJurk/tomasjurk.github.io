@@ -335,7 +335,6 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var NavbarComponent = /** @class */ (function () {
-    // userSignedIn: boolean; <--- create auth service and get data from there
     function NavbarComponent(router) {
         this.router = router;
         if (this.router.url.split('/')[this.router.url.split('/').length - 1] === 'specialists') {
