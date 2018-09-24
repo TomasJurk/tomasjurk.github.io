@@ -152,17 +152,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/esm5/form-field.es5.js");
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm5/select.es5.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _core_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./core/footer/footer.component */ "./src/app/core/footer/footer.component.ts");
-/* harmony import */ var _core_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./core/navbar/navbar.component */ "./src/app/core/navbar/navbar.component.ts");
-/* harmony import */ var _pages_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/landingpage/landingpage.component */ "./src/app/pages/landingpage/landingpage.component.ts");
-/* harmony import */ var _pages_booker_landing_booker_landing_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/booker-landing/booker-landing.component */ "./src/app/pages/booker-landing/booker-landing.component.ts");
-/* harmony import */ var _users_new_specialist_new_specialist_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./users/new-specialist/new-specialist.component */ "./src/app/users/new-specialist/new-specialist.component.ts");
-/* harmony import */ var _users_new_specialist_pages_welcome_page_welcome_page_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./users/new-specialist/pages/welcome-page/welcome-page.component */ "./src/app/users/new-specialist/pages/welcome-page/welcome-page.component.ts");
-/* harmony import */ var _users_new_specialist_pages_contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./users/new-specialist/pages/contact-info/contact-info.component */ "./src/app/users/new-specialist/pages/contact-info/contact-info.component.ts");
-/* harmony import */ var _users_new_specialist_pages_confirmation_code_confirmation_code_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./users/new-specialist/pages/confirmation-code/confirmation-code.component */ "./src/app/users/new-specialist/pages/confirmation-code/confirmation-code.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/esm5/form-field.es5.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm5/select.es5.js");
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/esm5/input.es5.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _core_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./core/footer/footer.component */ "./src/app/core/footer/footer.component.ts");
+/* harmony import */ var _core_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./core/navbar/navbar.component */ "./src/app/core/navbar/navbar.component.ts");
+/* harmony import */ var _pages_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/landingpage/landingpage.component */ "./src/app/pages/landingpage/landingpage.component.ts");
+/* harmony import */ var _pages_booker_landing_booker_landing_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/booker-landing/booker-landing.component */ "./src/app/pages/booker-landing/booker-landing.component.ts");
+/* harmony import */ var _users_new_specialist_new_specialist_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./users/new-specialist/new-specialist.component */ "./src/app/users/new-specialist/new-specialist.component.ts");
+/* harmony import */ var _users_new_specialist_pages_welcome_page_welcome_page_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./users/new-specialist/pages/welcome-page/welcome-page.component */ "./src/app/users/new-specialist/pages/welcome-page/welcome-page.component.ts");
+/* harmony import */ var _users_new_specialist_pages_contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./users/new-specialist/pages/contact-info/contact-info.component */ "./src/app/users/new-specialist/pages/contact-info/contact-info.component.ts");
+/* harmony import */ var _users_new_specialist_pages_confirmation_code_confirmation_code_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./users/new-specialist/pages/confirmation-code/confirmation-code.component */ "./src/app/users/new-specialist/pages/confirmation-code/confirmation-code.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -172,6 +174,8 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 // MODULES
+
+
 
 
 
@@ -192,25 +196,28 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-                _core_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"],
-                _core_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"],
-                _pages_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_9__["LandingpageComponent"],
-                _pages_booker_landing_booker_landing_component__WEBPACK_IMPORTED_MODULE_10__["BookerLandingComponent"],
-                _users_new_specialist_new_specialist_component__WEBPACK_IMPORTED_MODULE_11__["NewSpecialistComponent"],
-                _users_new_specialist_pages_welcome_page_welcome_page_component__WEBPACK_IMPORTED_MODULE_12__["WelcomePageComponent"],
-                _users_new_specialist_pages_contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_13__["ContactInfoComponent"],
-                _users_new_specialist_pages_confirmation_code_confirmation_code_component__WEBPACK_IMPORTED_MODULE_14__["ConfirmationCodeComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
+                _core_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
+                _core_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_10__["NavbarComponent"],
+                _pages_landingpage_landingpage_component__WEBPACK_IMPORTED_MODULE_11__["LandingpageComponent"],
+                _pages_booker_landing_booker_landing_component__WEBPACK_IMPORTED_MODULE_12__["BookerLandingComponent"],
+                _users_new_specialist_new_specialist_component__WEBPACK_IMPORTED_MODULE_13__["NewSpecialistComponent"],
+                _users_new_specialist_pages_welcome_page_welcome_page_component__WEBPACK_IMPORTED_MODULE_14__["WelcomePageComponent"],
+                _users_new_specialist_pages_contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_15__["ContactInfoComponent"],
+                _users_new_specialist_pages_confirmation_code_confirmation_code_component__WEBPACK_IMPORTED_MODULE_16__["ConfirmationCodeComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
-                _angular_material_form_field__WEBPACK_IMPORTED_MODULE_4__["MatFormFieldModule"],
-                _angular_material_select__WEBPACK_IMPORTED_MODULE_5__["MatSelectModule"]
+                _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__["MatFormFieldModule"],
+                _angular_material_select__WEBPACK_IMPORTED_MODULE_6__["MatSelectModule"],
+                _angular_material_input__WEBPACK_IMPORTED_MODULE_7__["MatInputModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -307,7 +314,7 @@ module.exports = "<nav>\r\n    <img src=\"../../../assets/icons/Nav-logo.png\" a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "nav {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  height: 3.2rem;\n  padding: .5rem 2.7rem;\n  display: flex;\n  align-items: center;\n  background-color: white;\n  border-bottom: 1px solid #cccccc; }\n  nav img {\n    height: 1.45rem; }\n  nav ul {\n    display: flex;\n    list-style: none; }\n  nav ul li {\n      cursor: pointer;\n      margin-left: 2.7rem;\n      font-size: .7rem;\n      font-weight: 500; }\n  nav ul li:hover {\n      opacity: .6; }\n"
+module.exports = "nav {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  height: 3.2rem;\n  padding: .5rem 2.7rem;\n  display: flex;\n  align-items: center;\n  background-color: white;\n  border-bottom: 1px solid #cccccc;\n  z-index: 999; }\n  nav img {\n    height: 1.45rem; }\n  nav ul {\n    display: flex;\n    list-style: none; }\n  nav ul li {\n      cursor: pointer;\n      margin-left: 2.7rem;\n      font-size: .7rem;\n      font-weight: 500; }\n  nav ul li:hover {\n      opacity: .6; }\n"
 
 /***/ }),
 
@@ -376,7 +383,7 @@ module.exports = "<app-navbar></app-navbar>\r\n<div class=\"jumbo\">\r\n  <heade
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".jumbo {\n  background: url('BookerBackground.png') center center/cover no-repeat;\n  margin-top: 3.2rem;\n  padding: 2.8rem;\n  height: 37rem;\n  display: flex; }\n  .jumbo header {\n    width: 25rem;\n    color: #8d7070;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start;\n    padding-bottom: 8rem; }\n  .jumbo h2 {\n    font-size: 2rem;\n    line-height: 1; }\n  .jumbo p {\n    font-size: 1.4rem;\n    margin-bottom: 0.5rem; }\n  .jumbo .btn-create {\n    display: inline-block;\n    cursor: pointer;\n    color: white;\n    background-color: #f17b5e;\n    border: 1px solid #f17b5e;\n    border-radius: 0 1.9rem;\n    padding: 0.45rem 2rem;\n    font-size: .85rem; }\n  .jumbo .btn-create:hover {\n    color: #f17b5e;\n    background-color: #eeeeee; }\n  .jumbo img {\n    height: 3.2rem; }\n  section {\n  padding: 2.8rem 0; }\n  section h2 {\n    font-size: 2.35rem;\n    font-weight: 400; }\n  section p {\n    font-size: .95rem;\n    line-height: 1.2;\n    margin: 0; }\n  section:nth-child(even) {\n  background-color: #f4f4f4; }\n  .section-container {\n  width: 59.5rem;\n  max-width: 90vw;\n  margin: 0 auto; }\n  .header-gray {\n  color: #8d7070; }\n  .description header {\n  margin-bottom: 1rem; }\n  .description .description__item:nth-child(2) header {\n  text-align: end; }\n  .description .icons {\n  display: flex;\n  margin: 2rem 0 4rem 0;\n  justify-content: space-between; }\n  .description .icons h5 {\n    text-align: center;\n    font-weight: 500;\n    font-size: .95rem; }\n  .description .icons img {\n    width: 4.5rem;\n    margin-top: .5rem; }\n  .description .icons .fix-mar {\n    margin-top: 1rem; }\n  .description .icons .fix-wid {\n    width: 5rem; }\n  .description .icons .hand-icon {\n    width: 3rem;\n    margin-top: 0.8rem; }\n  .description .icons__item {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n  .features .section-container {\n  display: flex;\n  justify-content: space-between; }\n  .features .features__item {\n  width: 18.5rem;\n  max-width: 32%; }\n  .features .features__item header {\n    margin: 0.4rem 0; }\n  .features .features__item img {\n    width: 100%; }\n  .features .features__item p {\n    font-weight: 500;\n    font-size: .85rem; }\n  .mob-app header {\n  margin-bottom: 1rem; }\n  .no-clinic {\n  padding: 3.5rem 0; }\n  .no-clinic .section-container {\n    display: flex;\n    align-items: center; }\n  .no-clinic header {\n    margin-bottom: 1rem; }\n  .no-clinic img {\n    width: 18.5rem;\n    max-width: 35%;\n    margin-right: 1rem; }\n  .assistance header {\n  text-align: end;\n  margin-bottom: 1rem; }\n"
+module.exports = ".jumbo {\n  background: url('BookerBackground.png') center center/cover no-repeat;\n  margin-top: 3.2rem;\n  padding: 2.8rem;\n  height: 37rem;\n  display: flex; }\n  .jumbo header {\n    width: 25rem;\n    color: #8d7070;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start;\n    padding-bottom: 8rem; }\n  .jumbo h2 {\n    font-size: 2rem;\n    line-height: 1; }\n  .jumbo p {\n    font-size: 1.4rem;\n    margin-bottom: 0.5rem; }\n  .jumbo .btn-create {\n    display: inline-block;\n    cursor: pointer;\n    color: white;\n    background-color: #f17b5e;\n    border: 1px solid #f17b5e;\n    border-radius: 0 1.9rem;\n    padding: 0.45rem 2rem;\n    font-size: .85rem; }\n  .jumbo .btn-create:hover {\n    color: #f17b5e;\n    background-color: #eeeeee; }\n  .jumbo img {\n    height: 3.2rem; }\n  section {\n  padding: 2.8rem 0; }\n  section h2 {\n    font-size: 2.35rem;\n    font-weight: 400; }\n  section p {\n    font-size: .95rem;\n    line-height: 1.2;\n    margin: 0; }\n  section:nth-child(even) {\n  background-color: #f4f4f4; }\n  .section-container {\n  width: 59.5rem;\n  max-width: 90vw;\n  margin: 0 auto; }\n  .header-gray {\n  color: #8d7070; }\n  .description header {\n  margin-bottom: 1rem; }\n  .description .description__item:nth-child(2) header {\n  text-align: right; }\n  .description .icons {\n  display: flex;\n  margin: 2rem 0 4rem 0;\n  justify-content: space-between; }\n  .description .icons h5 {\n    text-align: center;\n    font-weight: 500;\n    font-size: .95rem; }\n  .description .icons img {\n    width: 4.5rem;\n    margin-top: .5rem; }\n  .description .icons .fix-mar {\n    margin-top: 1rem; }\n  .description .icons .fix-wid {\n    width: 5rem; }\n  .description .icons .hand-icon {\n    width: 3rem;\n    margin-top: 0.8rem; }\n  .description .icons__item {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n  .features .section-container {\n  display: flex;\n  justify-content: space-between; }\n  .features .features__item {\n  width: 18.5rem;\n  max-width: 32%; }\n  .features .features__item header {\n    margin: 0.4rem 0; }\n  .features .features__item img {\n    width: 100%; }\n  .features .features__item p {\n    font-weight: 500;\n    font-size: .85rem; }\n  .mob-app header {\n  margin-bottom: 1rem; }\n  .no-clinic {\n  padding: 3.5rem 0; }\n  .no-clinic .section-container {\n    display: flex;\n    align-items: center; }\n  .no-clinic header {\n    margin-bottom: 1rem; }\n  .no-clinic img {\n    width: 18.5rem;\n    max-width: 35%;\n    margin-right: 1rem; }\n  .assistance header {\n  text-align: right;\n  margin-bottom: 1rem; }\n"
 
 /***/ }),
 
@@ -618,7 +625,7 @@ var ConfirmationCodeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2>Contact</h2>\n<h2>information.</h2>\n<button [routerLink]=\"['../confirmation-code']\">NEXT</button>\n"
+module.exports = "<main>\n    <section>\n        <div class=\"progress-scale\"></div>\n        <header>\n            <h2>Contact</h2>\n            <h2 class=\"header-gray\">information.</h2>\n        </header>\n        <p>The first step to create an account here with us to give us your contact details and personal information</p>\n        <ul>\n            <li>\n                <div class=\"img-icon user-icon\"></div>\n                <span>Your name and gender will always be visible to potential clients.</span>\n            </li>\n            <li>\n                <div class=\"img-icon phone-icon\"></div>\n                <span>Your email will never be visible to any clients. Your phone number will be visible to clients who have booked an appointment with you.</span>\n            </li>\n        </ul>\n    </section>\n    <section class=\"form-container\">\n        <form [formGroup]=\"userForm\" (ngSubmit)=\"signUp()\">\n            <!-- <p></p> -->\n            <mat-form-field class=\"full-width\">\n                <input matInput type=\"text\" placeholder=\"Name\" formControlName=\"name\" required>\n                <div class=\"sm-text is-danger\" *ngIf=\"formErrors.name\">\n                    {{ formErrors.name }}\n                </div>\n            </mat-form-field>\n            <!-- <p></p> -->\n            <mat-form-field class=\"full-width\">\n                <input matInput type=\"text\" placeholder=\"Last name\" formControlName=\"lastName\" required>\n                <div class=\"sm-text is-danger\" *ngIf=\"formErrors.lastName\">\n                    {{ formErrors.lastName }}\n                </div>\n            </mat-form-field>\n            <!-- <p>Gender</p> -->\n            <div class=\"btn-container\">\n                <button class=\"btn btn-male\">Male</button>\n                <button class=\"btn btn-female\">Female</button>\n            </div>\n            <p><span class=\"text-green\">(Confirmation mail will be sent)</span></p>\n            <mat-form-field class=\"full-width\">\n                <input matInput type=\"email\" placeholder=\"Email\" formControlName=\"email\" required>\n                <div class=\"sm-text is-danger\" *ngIf=\"formErrors.email\">\n                    {{ formErrors.email }}\n                </div>\n            </mat-form-field>\n            <p><span class=\"text-green\">(Confirmation code will be sent)</span></p>\n            <mat-form-field class=\"full-width\">\n                <input matInput type=\"number\" placeholder=\"Phone number ex. (+47) 123 45 678\" formControlName=\"phoneNumber\" required>\n                <div class=\"sm-text is-danger\" *ngIf=\"formErrors.phoneNumber\">\n                    {{ formErrors.phoneNumber }}\n                </div>\n            </mat-form-field>\n            <!-- <p>Password</p> -->\n            <mat-form-field class=\"full-width\">\n                <input matInput type=\"password\" placeholder=\"Password\" formControlName=\"password\" required>\n                <div class=\"sm-text is-danger\" *ngIf=\"formErrors.password\">\n                {{ formErrors.password }}\n                </div>\n            </mat-form-field>\n            <div class=\"btn-container\">\n                <button class=\"btn btn-back\" routerLink=\"/specialists/new\">Back</button>\n                <button class=\"btn btn-next\" [disabled]=\"!userForm.valid\" type=\"submit\">Next</button>  <!-- [routerLink]=\"['../confirmation-code']\" -->\n            </div>\n        </form>\n    </section>\n</main>"
 
 /***/ }),
 
@@ -629,7 +636,7 @@ module.exports = "<h2>Contact</h2>\n<h2>information.</h2>\n<button [routerLink]=
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "main {\n  width: 58rem;\n  max-width: 90vw;\n  margin: 5rem auto;\n  display: flex; }\n\nsection {\n  width: calc(50% - 2px); }\n\nsection:nth-child(1) {\n  border-right: 1px solid #d8d8d8;\n  padding-right: 1rem; }\n\nsection:nth-child(2) {\n  border-left: 1px solid #d8d8d8;\n  padding: 3.8rem; }\n\nheader {\n  margin: 1.6rem 0 .4rem 0; }\n\nh2 {\n  font-size: 1.7rem;\n  font-weight: 400; }\n\np {\n  font-size: .95rem; }\n\nul {\n  list-style: none;\n  margin-top: 1.8rem; }\n\nul li {\n    font-size: .7rem;\n    display: flex;\n    align-items: center;\n    margin-bottom: 1.3rem; }\n\nul li .img-icon {\n      display: inline-block;\n      margin-right: .6rem;\n      width: 1.45rem;\n      height: 1.45rem; }\n\nul li .user-icon {\n      background: url(\"data:image/png;base64,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\") center center/contain no-repeat; }\n\nul li .phone-icon {\n      background: url(\"data:image/png;base64,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\") center center/contain no-repeat; }\n\nul li span {\n      max-width: 90%; }\n\n.progress-scale {\n  max-width: 85%;\n  height: 2rem;\n  margin: -.7rem auto 0 auto;\n  background: url('Progress1.png') center center/contain no-repeat; }\n\n.form-container p {\n  font-weight: 500;\n  font-size: .8rem; }\n\n.btn-container {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 3rem;\n  margin-top: .5rem; }\n\n.btn {\n  font-family: 'Montserrat', sans-serif;\n  display: inline-block;\n  cursor: pointer;\n  color: white;\n  width: 48.5%;\n  height: 2.2rem;\n  font-size: 0.85rem; }\n\n.btn-male {\n  border-radius: 0 0 0 2.1rem;\n  color: black;\n  background-color: white;\n  border: 1px solid black; }\n\n.btn-female {\n  border-radius: 0 2.1rem 0 0;\n  color: black;\n  background-color: white;\n  border: 1px solid black; }\n\n.btn-back {\n  border-radius: 0 0 0 2.1rem;\n  background-color: #8d7070;\n  border: 1px solid #8d7070; }\n\n.btn-back:hover {\n  color: #8d7070;\n  background-color: white; }\n\n.btn-next {\n  border-radius: 0 2.1rem 0 0;\n  background-color: #f17b5e;\n  border: 1px solid #f17b5e; }\n\n.btn-next:hover {\n  color: #f17b5e;\n  background-color: white; }\n\n.header-gray {\n  color: #8d7070; }\n\n/deep/ .mat-form-field {\n  font-family: 'Montserrat', sans-serif;\n  font-weight: 500;\n  font-size: .8rem; }\n\n.text-green {\n  color: #7ed321;\n  font-size: .6rem; }\n"
 
 /***/ }),
 
@@ -644,6 +651,7 @@ module.exports = ""
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactInfoComponent", function() { return ContactInfoComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -654,10 +662,98 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var ContactInfoComponent = /** @class */ (function () {
-    function ContactInfoComponent() {
+    function ContactInfoComponent(formBuilder) {
+        this.formBuilder = formBuilder;
+        this.formErrors = {
+            'name': '',
+            'lastName': '',
+            'email': '',
+            'phoneNumber': '',
+            'password': ''
+        };
+        this.validationMessage = {
+            'name': {
+                'required': 'Name is required',
+                'minlength': 'Name must be at least 2 char long.'
+            },
+            'lastName': {
+                'required': 'Name is required',
+                'minlength': 'Name must be at least 2 char long.'
+            },
+            'email': {
+                'required': 'Email is required',
+                'email': 'Email must be valid'
+            },
+            'phoneNumber': {
+                'required': 'Phone number is required',
+                'min': 'Phone number must be valid'
+            },
+            'password': {
+                'required': 'Password is required',
+                'pattern': 'Password must contain at least one letter and number.',
+                'minlength': 'Password must be at least 6 char long.',
+                'maslength': 'Password cannot be more than 40 chars long.'
+            }
+        };
     }
     ContactInfoComponent.prototype.ngOnInit = function () {
+        this.buildForm();
+    };
+    ContactInfoComponent.prototype.signUp = function () {
+        console.log('test');
+    };
+    ContactInfoComponent.prototype.buildForm = function () {
+        var _this = this;
+        this.userForm = this.formBuilder.group({
+            'name': ['', [
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required,
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].minLength(2)
+                ]],
+            'lastName': ['', [
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required,
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].minLength(2)
+                ]],
+            'email': ['', [
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required,
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].email
+                ]],
+            'phoneNumber': ['', [
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required,
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].min(100000)
+                ]],
+            'password': ['', [
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z0-9]+)$'),
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].minLength(6),
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].maxLength(40),
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required
+                ]]
+        });
+        this.userForm.valueChanges.subscribe(function (data) { return _this.onValueChanged(data); });
+        this.onValueChanged();
+    };
+    ContactInfoComponent.prototype.onValueChanged = function (data) {
+        if (!this.userForm) {
+            return;
+        }
+        var form = this.userForm;
+        for (var field in this.formErrors) {
+            if (Object.prototype.hasOwnProperty.call(this.formErrors, field)) {
+                this.formErrors[field] = '';
+                var control = form.get(field);
+                if (control && control.dirty && !control.valid) {
+                    var messages = this.validationMessage[field];
+                    if (control.errors) {
+                        for (var key in control.errors) {
+                            if (Object.prototype.hasOwnProperty.call(control.errors, key)) {
+                                this.formErrors[field] += messages[key] + " \n";
+                            }
+                        }
+                    }
+                }
+            }
+        }
     };
     ContactInfoComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -665,7 +761,7 @@ var ContactInfoComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./contact-info.component.html */ "./src/app/users/new-specialist/pages/contact-info/contact-info.component.html"),
             styles: [__webpack_require__(/*! ./contact-info.component.scss */ "./src/app/users/new-specialist/pages/contact-info/contact-info.component.scss")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]])
     ], ContactInfoComponent);
     return ContactInfoComponent;
 }());
@@ -681,7 +777,7 @@ var ContactInfoComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2>Welcome to the</h2>\n<h2>uBoddy platform.</h2>\n<button [routerLink]=\"['contact-details']\">Get started</button>\n"
+module.exports = "<main>\n    <h5>Create account</h5>\n    <section>\n        <header>\n            <h2>Welcome to the</h2>\n            <h2 class=\"header-gray\">uboddy platform.</h2>\n        </header>\n        <p>On this platform you will be visible to thousands of consumers and be able to sell them your treatments and services. When you want, and on your terms.</p>\n    </section>\n    <section>\n        <header>\n            <h2>Treatments</h2>\n            <h2 class=\"header-gray\">and services.</h2>\n        </header>\n        <p>The treatments and services that you will be able to sell on the uboddy market are:</p>\n        <ul>\n            <li>Massage therapy</li>\n            <li>Acupunture/Acupressure</li>\n            <li>Zonetherapy</li>\n            <li>Physiotherapy</li>\n            <li>Nutritional advice</li>\n            <li>Healthcoaching</li>\n            <li>Personal training</li>\n        </ul>\n    </section>\n    <section>\n        <header>\n            <h2>Well,</h2>\n            <h2 class=\"header-gray\">don't just sit there!</h2>\n        </header>\n        <p>It's now time to take the first step to success and create an account. If you need any assistance we are here for you. At any time just press \"Contact us\" in the top right corner to start a live chat and we can figure this out together.</p>\n    </section>\n    <section class=\"button-section\">\n        <span class=\"btn-start\" [routerLink]=\"['contact-details']\">Get started</span>\n    </section>\n</main>\n"
 
 /***/ }),
 
@@ -692,7 +788,7 @@ module.exports = "<h2>Welcome to the</h2>\n<h2>uBoddy platform.</h2>\n<button [r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "main {\n  width: 47rem;\n  max-width: 90vw;\n  margin: 0 auto; }\n  main h5 {\n    display: block;\n    font-size: 0.85rem;\n    padding: 2rem 0;\n    font-weight: 400; }\n  main p, main li {\n    font-size: .95rem; }\n  section {\n  margin-bottom: 2rem; }\n  header {\n  margin-bottom: 0.5rem; }\n  h2 {\n  font-size: 1.7rem;\n  font-weight: 400; }\n  ul {\n  margin: .3rem 0 0 1.5rem; }\n  .header-gray {\n  color: #8d7070; }\n  .button-section {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .btn-start {\n  display: inline-block;\n  cursor: pointer;\n  color: white;\n  background-color: #f17b5e;\n  border: 1px solid #f17b5e;\n  border-radius: 0 2.2rem;\n  padding: 0.5rem 4.3rem;\n  margin: 1.5rem 0;\n  font-size: 0.95rem; }\n  .btn-start:hover {\n  color: #f17b5e;\n  background-color: white; }\n"
 
 /***/ }),
 
