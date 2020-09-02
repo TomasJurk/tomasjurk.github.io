@@ -38,8 +38,18 @@ body {
     background-color: #f5f6f1 !important;
 }
 
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    min-height: 37rem;
+    height: auto;
+    border: 1px solid black;
+}
+
 .logo-container {
-    margin-top: 5rem;
+    bottom: -2.65rem;
 }
 
 .logo {
@@ -47,15 +57,18 @@ body {
 }
 
 .logo-container > h1 {
-    width: fit-content;
     font-size: 3.5rem;
-    font-weight: 200;
     letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+}
+    
+.logo-container > h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
 }
 
 .nav-link {
-    font-size: 1.3rem;
-    font-weight: 300;
+    font-size: 1.15rem;
 }
 
 .card {
@@ -113,7 +126,7 @@ body {
 }
 
 .project-pic {
-    background: url('images/hand.PNG') center center / cover no-repeat;
+    background: url('images/hand.jpg') center center / cover no-repeat;
     height: 45%;
 }
 
@@ -132,11 +145,7 @@ footer {
         width: 100%;
         justify-content: space-around;
         align-items: flex-end;
-    }
-    
-    .central-nav-link {
-        margin: 0 5rem;
-        font-size: 1.5rem;
+        margin: 0 1rem;
     }
 
     .projects-container .row {
