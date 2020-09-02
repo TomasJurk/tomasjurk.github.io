@@ -31,7 +31,7 @@ body {
 }
 
 .clr-cream {
-    color: #f5f6f1;
+    color: #f5f6f1 !important;
 }
 
 .bkgr-clr-cream {
@@ -43,9 +43,7 @@ body {
     justify-content: center;
     align-items: baseline;
     width: 100%;
-    min-height: 37rem;
-    height: auto;
-    border: 1px solid black;
+    min-height: 20rem;
 }
 
 .logo-container {
@@ -53,7 +51,7 @@ body {
 }
 
 .logo {
-    width: 17vw;
+    width: 18rem;
 }
 
 .logo-container > h1 {
@@ -67,8 +65,16 @@ body {
     letter-spacing: 0.15rem;
 }
 
+.navbar-toggler:focus {
+    outline: none;
+}
+
 .nav-link {
     font-size: 1.15rem;
+}
+
+.separator {
+    width: 40%;
 }
 
 .card {
@@ -103,13 +109,15 @@ body {
     letter-spacing: 0.2rem;
 }
 
-.projects-container {
-    max-width: 85%;
+.section-projects a:hover {
+    text-decoration: none;
 }
 
 .project-card {
     height: 24rem;
     width: 16rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 3px 0px silver;
 }
 
 .project-description {
@@ -119,16 +127,44 @@ body {
     align-items: center;
 }
 
+.project-description > div {
+    flex: 1;
+}
+
+.project-description p {
+    color: black;
+}
+
 .project-description-line {
     width: 2.5rem;
     height: 0.15rem;
     background-color: black;
 }
+.project-description p {
+    font-size: 0.7rem;
+    margin: 0 0.5rem;
+}
 
 .project-pic {
-    background: url('images/hand.jpg') center center / cover no-repeat;
     height: 45%;
 }
+
+.project-pic__vinbar {
+    background: url('images/vinbar.jpg') center center / cover no-repeat;
+}
+
+.project-pic__bok {
+    background: url('images/bok.jpg') center center / cover no-repeat;
+}
+
+.project-pic__sykehus {
+    background: url('images/sykehus.jpg') center center / cover no-repeat;
+}
+
+.project-pic__visivo {
+    background: url('images/visivo.jpg') center center / cover no-repeat;
+}
+
 
 .section-projects .btn {
     border-radius: 0;
@@ -148,43 +184,57 @@ footer {
         margin: 0 1rem;
     }
 
-    .projects-container .row {
-        flex-wrap: nowrap;
+    .projects-container {
+        max-width: 85%;
     }
 }
 
 @media (max-width: 1024px) {
-    .logo-container {
-        margin-top: 1rem;
+    .logo-wrapper {
+        min-height: 12rem;
     }
 
     .logo {
-        width: 20vw;
+        width: 14rem;
     }
-
+    
     .logo-container > h1 {
         font-size: 2rem;
     }
-
+    
     .nav-link {
         font-size: 1rem;
     }
-
+    
     .section-about {
         flex-direction: column;
     }
-
+    
     .section-about img, .section-about .container-about {
         width: 100%;
+    }
+    
+    .project-card {
+        height: 28rem;
+        width: 20rem;
     }
 }
 
 @media (max-width: 500px) {
+    .logo-container {
+        bottom: 0.4rem;
+    }
+
     .logo {
-        width: 25vw;
+        width: 9rem;
     }
 
     .logo-container > h1 {
         font-size: 1.6rem;
     }
+
+    .logo-container > h2 {
+        font-size: 1.1rem;
+    }
+
 }
