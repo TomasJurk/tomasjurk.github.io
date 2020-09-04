@@ -180,7 +180,36 @@ body {
 }
 
 footer {
-    height: 15rem;
+    width: 100%;
+    padding: 5rem 2rem;
+}
+
+footer h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    padding: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-right: 1rem;
+}
+
+.social-icons {
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    width: 1.3rem;
+    margin: 0.5rem;
+}
+
+.social-icons img {
     width: 100%;
 }
 
@@ -248,5 +277,13 @@ footer {
 
     .project-description p {
         font-size: 0.85rem;
+    }
+
+    footer {
+        padding: 3rem 2rem;
+    }
+
+    footer h2 {
+        margin-bottom: 3rem;
     }
 }
