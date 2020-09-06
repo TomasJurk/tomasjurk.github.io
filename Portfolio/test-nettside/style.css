@@ -6,6 +6,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.font_dancing_script {
+    font-family: 'Dancing Script', cursive;
+}
+
 .clr-gold {
     color: #887850 !important;
 }
@@ -106,6 +110,10 @@ body {
     padding: calc(4vw + 1rem);
 }
 
+.container-about h3 {
+    font-size: 2.2rem;
+}
+
 .container-about * {
     margin-bottom: 1rem;
 }
@@ -185,7 +193,6 @@ footer {
 }
 
 footer h2 {
-    font-family: 'Dancing Script', cursive;
     font-size: 3rem;
     margin-bottom: 5rem;
     padding: 0;
