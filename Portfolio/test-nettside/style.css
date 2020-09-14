@@ -4,6 +4,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 0.8rem;
+}
+
+h2 {
+    letter-spacing: 0.2rem;
 }
 
 .spacer {
@@ -51,36 +58,22 @@ body {
     justify-content: center;
     align-items: baseline;
     width: 100%;
-    min-height: 7rem;
+    min-height: 10rem;
 }
 
 .logo-container {
-    bottom: -4.2rem;
-    z-index: -1;
+    bottom: -2.2rem;
+    z-index: 1;
 }
 
 .logo {
     width: 18rem;
 }
 
-/* .logo-container {
-    bottom: -2rem;
-}
-
-.logo {
-    width: 7rem;
-} */
-
-.logo-container > h1 {
-    font-size: 1.2rem;
-    letter-spacing: 0.3rem;
-    margin-bottom: 0;
-}
-    
-.logo-container > h2 {
-    font-size: 0.8rem;
-    letter-spacing: 0.15rem;
-    margin-bottom: 0;
+.logo a {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 .navbar-toggler:focus {
@@ -142,10 +135,6 @@ body {
     width: 60%;
 }
 
-.section-projects h2 {
-    letter-spacing: 0.2rem;
-}
-
 .section-projects a:hover {
     text-decoration: none;
 }
@@ -166,12 +155,6 @@ body {
 
 .project-description > div {
     flex: 1;
-}
-
-.project-description-line {
-    width: 2.5rem;
-    height: 0.15rem;
-    background-color: black;
 }
 
 .project-description p {
@@ -290,9 +273,6 @@ footer {
 }
 
 @media (max-width: 1024px) {
-    .logo-wrapper {
-        min-height: 6rem;
-    }
     
     .nav-link {
         font-size: 1rem;
@@ -323,15 +303,12 @@ footer {
 @media (max-width: 500px) {
 
     .logo-wrapper {
-        min-height: 9rem;
+        min-height: 12rem;
     }
 
     .logo-container {
-        bottom: -3rem;
+        bottom: -0.7rem;
     }
-    /* .logo-container {
-        bottom: 0;
-    } */
 
     .book-img, .hand-img {
         height: 25rem;
