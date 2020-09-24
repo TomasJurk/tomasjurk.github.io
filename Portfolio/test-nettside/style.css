@@ -207,20 +207,29 @@ footer {
     width: 100%;
 }
 
-.section-contact-form {
+.section-contact-page, .section-page-projects {
     min-height: calc(100vh - 10.45rem);
     padding: 3rem;
+}
+
+.section-page-projects .row > a:hover {
+    text-decoration: none;
 }
 
 .section-contact-form form {
     margin-bottom: 3rem;
 }
 
-.section-contact-form a {
+.link-home {
     text-decoration: underline;
     color: #7f7975;
     margin-bottom: 2rem;
     display: block;
+}
+
+.link-home:hover {
+    text-decoration: underline;
+    color: #7f7975;
 }
 
 .section-contact-form .form-control:focus {
