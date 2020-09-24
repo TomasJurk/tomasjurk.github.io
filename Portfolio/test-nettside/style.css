@@ -161,6 +161,10 @@ h2 {
     color: black;
     font-size: 0.7rem;
     margin: 0 0.5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 
 .project-pic {
@@ -170,17 +174,74 @@ h2 {
 .project-pic__vinbar {
     background: url('images/vinbar.jpg') center center / cover no-repeat;
 }
-
 .project-pic__bok {
     background: url('images/bok.jpg') center center / cover no-repeat;
 }
-
 .project-pic__sykehus {
     background: url('images/sykehus.jpg') center center / cover no-repeat;
 }
-
 .project-pic__visivo {
     background: url('images/visivo.jpg') center center / cover no-repeat;
+}
+.project-pic__ysteri {
+    background: url('images/ysteri.jpg') center center / cover no-repeat;
+}
+.project-pic__arv {
+    background: url('images/arv.jpg') center center / cover no-repeat;
+}
+.project-pic__aurskog-hogland_ny_logo {
+    background: url('images/aurskog-hogland_ny_logo.jpg') center center / cover no-repeat;
+}
+.project-pic__osl-sthlm_3_timer {
+    background: url('images/osl-sthlm_3_timer.jpg') center center / cover no-repeat;
+}
+.project-pic__hyttee {
+    background: url('images/hyttee.jpg') center center / cover no-repeat;
+}
+.project-pic__tapet-norsk-arv {
+    background: url('images/tapet-norsk-arv.jpg') center center / cover no-repeat;
+}
+.project-pic__Robotklipper-1 {
+    background: url('images/Robotklipper-1.jpg') center center / cover no-repeat;
+}
+.project-pic__portfolio-esker {
+    background: url('images/portfolio-esker.jpg') center center / cover no-repeat;
+}
+.project-pic__Ekeberg-bhage1 {
+    background: url('images/Ekeberg-bhage1.jpg') center center / cover no-repeat;
+}
+.project-pic__Jul-på-Bjørkelangen {
+    background: url('images/Jul-på-Bjørkelangen.jpg') center center / cover no-repeat;
+}
+.project-pic__Kalender-1 {
+    background: url('images/Kalender-1.jpg') center center / cover no-repeat;
+}
+.project-pic__profilering {
+    background: url('images/profilering.png') center center / cover no-repeat;
+}
+.project-pic__Ildstedet {
+    background: url('images/Ildstedet.jpg') center center / cover no-repeat;
+}
+.project-pic__Norske-hjem-bilder {
+    background: url('images/Norske-hjem-bilder.jpg') center center / cover no-repeat;
+}
+.project-pic__Vårt-Land {
+    background: url('images/Vårt-Land.jpg') center center / cover no-repeat;
+}
+.project-pic__store-skilt {
+    background: url('images/store-skilt.jpg') center center / cover no-repeat;
+}
+.project-pic__DM_Grim {
+    background: url('images/DM_Grim.jpg') center center / cover no-repeat;
+}
+.project-pic__Grim-logo {
+    background: url('images/Grim-logo.jpg') center center / cover no-repeat;
+}
+.project-pic__Leirminner {
+    background: url('images/Leirminner.jpg') center center / cover no-repeat;
+}
+.project-pic__ PROJECTNAME {
+    background: url('images/ PROJECTNAME.jpg') center center / cover no-repeat;
 }
 
 
