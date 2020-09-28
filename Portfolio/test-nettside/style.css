@@ -146,14 +146,19 @@ h2 {
     box-shadow: 0px 0px 3px 0px silver;
 }
 
-.project-description {
+.partner-card {
+    height: 24rem;
+    width: 100%;
+}
+
+.project-description, .partner-description {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.project-description > div {
+.project-description > div, .partner-description > div {
     flex: 1;
 }
 
@@ -167,7 +172,22 @@ h2 {
     -webkit-box-orient: vertical;
 }
 
-.project-pic {
+.partner-description p {
+    color: black;
+    font-size: 0.7rem;
+    margin: 0 0.5rem;
+}
+
+.partner-pic {
+    height: 50%;
+    background: transparent center center / contain no-repeat;
+}
+
+.partner-pic__visivo {
+    background-image: url('images/visivo.jpg');
+}
+
+.project-pic{
     height: 45%;
 }
 
@@ -240,8 +260,83 @@ h2 {
 .project-pic__Leirminner {
     background: url('images/Leirminner.jpg') center center / cover no-repeat;
 }
-.project-pic__ PROJECTNAME {
-    background: url('images/ PROJECTNAME.jpg') center center / cover no-repeat;
+.project-pic__Tapetbok6 {
+    background: url('images/Tapetbok6.jpg') center center / cover no-repeat;
+}
+.project-pic__Gigantprint1 {
+    background: url('images/Gigantprint1.jpg') center center / cover no-repeat;
+}
+.project-pic__AHF {
+    background: url('images/AHF.jpg') center center / cover no-repeat;
+}
+.project-pic__Gudbrandsdal {
+    background: url('images/Gudbrandsdal.jpg') center center / cover no-repeat;
+}
+.project-pic__aurskog {
+    background: url('images/aurskog.jpg') center center / cover no-repeat;
+}
+.project-pic__2punkt {
+    background: url('images/2punkt.jpg') center center / cover no-repeat;
+}
+.project-pic__Villa-Lier {
+    background: url('images/Villa-Lier.jpg') center center / cover no-repeat;
+}
+.project-pic__logoer {
+    background: url('images/logoer.jpg') center center / cover no-repeat;
+}
+.project-pic__Annonse-Swissvax {
+    background: url('images/Annonse-Swissvax.jpg') center center / cover no-repeat;
+}
+.project-pic__Nor-netting {
+    background: url('images/Nor-netting.jpg') center center / cover no-repeat;
+}
+.project-pic__Normisjon1 {
+    background: url('images/Normisjon1.jpg') center center / cover no-repeat;
+}
+.project-pic__Grimmaskin1 {
+    background: url('images/Grimmaskin1.jpg') center center / cover no-repeat;
+}
+.project-pic__Nye-magasin-hos-Narvesen {
+    background: url('images/Nye-magasin-hos-Narvesen.jpg') center center / cover no-repeat;
+}
+.project-pic__Kronbladet {
+    background: url('images/Kronbladet.jpg') center center / cover no-repeat;
+}
+.project-pic__Kultur {
+    background: url('images/Kultur.jpg') center center / cover no-repeat;
+}
+.project-pic__Myntesker {
+    background: url('images/Myntesker.jpg') center center / cover no-repeat;
+}
+.project-pic__aurskog-senter {
+    background: url('images/aurskog-senter.png') center center / cover no-repeat;
+}
+.project-pic__Hos-Mona-logo {
+    background: url('images/Hos-Mona-logo.jpg') center center / cover no-repeat;
+}
+.project-pic__mangenoppslag {
+    background: url('images/mangenoppslag.jpg') center center / cover no-repeat;
+}
+.project-pic__høland-idretts-og-undomslag {
+    background: url('images/høland-idretts-og-undomslag.jpg') center center / cover no-repeat;
+}
+.project-pic__Skauen-husflidslag {
+    background: url('images/Skauen-husflidslag.jpg') center center / cover no-repeat;
+}
+.project-pic__Eidsverket-akevittlag {
+    background: url('images/Eidsverket-akevittlag.jpg') center center / cover no-repeat;
+}
+.project-pic__årsplan-2016-forside-1 {
+    background: url('images/årsplan-2016-forside-1.jpg') center center / cover no-repeat;
+}
+.project-pic__bb-event {
+    background: url('images/bb-event.jpg') center center / cover no-repeat;
+}
+.project-pic__egendesignet-tapet {
+    background: url('images/egendesignet-tapet.jpg') center center / cover no-repeat;
+}
+.project-pic__Mangenfjelletturlag {
+    background: url('images/Mangenfjelletturlag.jpg') center center / cover no-repeat;
 }
 
 
@@ -268,12 +363,12 @@ footer {
     width: 100%;
 }
 
-.section-contact-page, .section-page-projects {
+.section-contact-page, .section-page-projects, .section-page-partners {
     min-height: calc(100vh - 10.45rem);
     padding: 3rem;
 }
 
-.section-page-projects .row > a:hover {
+.section-page-projects .row > a:hover, .section-page-partners .row > a:hover {
     text-decoration: none;
 }
 
@@ -337,8 +432,12 @@ footer {
         font-size: 0.85rem;
     }
 
-    .projects-container {
+    .projects-container, .partners-container {
         max-width: 85%;
+    }
+
+    .partners-container .row > a {
+        max-width: 33%;
     }
 }
 
@@ -361,7 +460,7 @@ footer {
         width: 20rem;
     }
     
-    .project-description p {
+    .project-description p, .partner-description p {
         font-size: 0.8rem;
     }
 
