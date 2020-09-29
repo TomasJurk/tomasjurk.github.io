@@ -181,10 +181,33 @@ h2 {
 .partner-pic {
     height: 50%;
     background: transparent center center / contain no-repeat;
+    max-width: 80%;
+    margin: 0 auto 0.6rem auto;
 }
 
 .partner-pic__visivo {
     background-image: url('images/visivo.jpg');
+}
+.partner-pic__rkg-logo-2 {
+    background-image: url('images/rkg-logo-2.png');
+}
+.partner-pic__Logoz {
+    background-image: url('images/Logoz.jpg');
+}
+.partner-pic__Gigantprint {
+    background-image: url('images/Gigantprint.jpg');
+}
+.partner-pic__Nettstedsinformasjon {
+    background-image: url('images/Nettstedsinformasjon.png');
+}
+.partner-pic__2punkt {
+    background-image: url('images/2punkt.jpg');
+}
+.partner-pic__bokstavogbilde {
+    background-image: url('images/bokstavogbilde.png');
+}
+.partner-pic__Logo_FLOAT {
+    background-image: url('images/Logo_FLOAT.jpg');
 }
 
 .project-pic{
@@ -339,6 +362,17 @@ h2 {
     background: url('images/Mangenfjelletturlag.jpg') center center / cover no-repeat;
 }
 
+/* .section-page-projects .row a:nth-child(3n+1) .project-description {
+    background-color: #f5f6f1;
+}
+.section-page-projects .row a:nth-child(3n+2) .project-description {
+    background-color: #887850;
+    color: #f5f6f1;
+}
+.section-page-projects .row a:nth-child(3n+3) .project-description {
+    background-color: #7f7975;
+    color: #f5f6f1;
+} */
 
 .section-projects .btn {
     border-radius: 0;

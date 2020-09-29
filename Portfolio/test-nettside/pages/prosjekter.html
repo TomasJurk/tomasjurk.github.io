@@ -617,6 +617,29 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+    <script>
+      const projDescriptionsList = document.getElementsByClassName('project-description');
+      let n = 1;
+      for (let i = 0; i < projDescriptionsList.length; i++) {
+        switch (n) {
+          case 1:
+            projDescriptionsList[i].classList.add('bkgr-clr-cream');
+            n++;
+            break;
+          case 2:
+            projDescriptionsList[i].classList.add('bkgr-clr-gold');
+            projDescriptionsList[i].children[0].children[0].classList.add('clr-cream');
+            n++;
+            break;
+          default:
+            projDescriptionsList[i].classList.add('bkgr-clr-gray');
+            projDescriptionsList[i].children[0].children[0].classList.add('clr-cream');
+            n = 1;
+            break;
+        }
+      }
+
+    </script>
 </body>
 
 </html>
