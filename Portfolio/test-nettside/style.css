@@ -80,16 +80,12 @@ h2 {
     outline: none;
 }
 
-.book-img, .hand-img {
+.book-img {
     height: 30rem;
 }
 
 .book-img {
     background: url('./images/book.jpg') center center / cover no-repeat;
-}
-
-.hand-img {
-    background: url('./images/hand.jpg') center center / cover no-repeat;
 }
 
 .nav-separator {
@@ -512,7 +508,7 @@ footer {
         bottom: -0.7rem;
     }
 
-    .book-img, .hand-img {
+    .book-img {
         height: 25rem;
     }
 
