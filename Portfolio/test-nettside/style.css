@@ -58,7 +58,7 @@ h2 {
     justify-content: center;
     align-items: baseline;
     width: 100%;
-    min-height: 10rem;
+    min-height: 12rem;
 }
 
 .logo-container {
@@ -67,7 +67,7 @@ h2 {
 }
 
 .logo {
-    width: 18rem;
+    width: 20rem;
 }
 
 .logo a {
@@ -114,25 +114,18 @@ h2 {
     border-radius: 0;
 }
 
-.section-about img, .section-about .container-about {
-    width: 50%;
+.section-about img {
+    width: 39rem;
+    height: 39rem;
 }
 
 .container-about {
     padding: calc(4vw + 1rem);
+    flex: 1 1 auto;
 }
 
-.container-about h3 {
-    font-size: 2.2rem;
-}
-
-.container-about * {
+.container-about h2 {
     margin-bottom: 1rem;
-}
-
-.container-about .btn {
-    border-radius: 0;
-    width: 60%;
 }
 
 .section-projects a:hover {
@@ -362,18 +355,6 @@ h2 {
     background: url('images/Mangenfjelletturlag.jpg') center center / cover no-repeat;
 }
 
-/* .section-page-projects .row a:nth-child(3n+1) .project-description {
-    background-color: #f5f6f1;
-}
-.section-page-projects .row a:nth-child(3n+2) .project-description {
-    background-color: #887850;
-    color: #f5f6f1;
-}
-.section-page-projects .row a:nth-child(3n+3) .project-description {
-    background-color: #7f7975;
-    color: #f5f6f1;
-} */
-
 .section-projects .btn {
     border-radius: 0;
     width: 11rem;
@@ -475,6 +456,12 @@ footer {
     }
 }
 
+@media (max-width: 1190px) {
+    .container-about {
+        padding: 1.5rem;
+    }
+}
+
 @media (max-width: 1024px) {
     
     .nav-link {
@@ -484,9 +471,14 @@ footer {
     .section-about {
         flex-direction: column;
     }
+
+    .section-about img {
+        margin: 0 auto;
+    }
     
-    .section-about img, .section-about .container-about {
+    .section-about .container-about {
         width: 100%;
+        padding: 7vw;
     }
     
     .project-card {
@@ -503,10 +495,17 @@ footer {
     }
 }
 
+@media (max-width: 555px) {
+    .section-about img {
+        width: 100vw;
+        height: 100vw;
+    }
+}
+
 @media (max-width: 500px) {
 
     .logo-wrapper {
-        min-height: 12rem;
+        min-height: 14rem;
     }
 
     .logo-container {
