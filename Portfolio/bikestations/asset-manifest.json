@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "https://tomasjurk.github.io/Portfolio/bikestations/static/css/main.ac802d66.chunk.css",
-    "main.js": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/main.ff28bd76.chunk.js",
-    "main.js.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/main.ff28bd76.chunk.js.map",
-    "runtime-main.js": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/runtime-main.3d093c46.js",
-    "runtime-main.js.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/runtime-main.3d093c46.js.map",
-    "static/js/2.3babf651.chunk.js": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/2.3babf651.chunk.js",
-    "static/js/2.3babf651.chunk.js.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/2.3babf651.chunk.js.map",
-    "static/js/3.a4bd097c.chunk.js": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/3.a4bd097c.chunk.js",
-    "static/js/3.a4bd097c.chunk.js.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/3.a4bd097c.chunk.js.map",
-    "index.html": "https://tomasjurk.github.io/Portfolio/bikestations/index.html",
-    "static/css/main.ac802d66.chunk.css.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/css/main.ac802d66.chunk.css.map",
-    "static/js/2.3babf651.chunk.js.LICENSE.txt": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/2.3babf651.chunk.js.LICENSE.txt",
-    "static/media/Navbar.module.css": "https://tomasjurk.github.io/Portfolio/bikestations/static/media/logo.d35109d4.svg"
+    "main.css": "/Portfolio/bikestations/static/css/main.57733a28.chunk.css",
+    "main.js": "/Portfolio/bikestations/static/js/main.ff28bd76.chunk.js",
+    "main.js.map": "/Portfolio/bikestations/static/js/main.ff28bd76.chunk.js.map",
+    "runtime-main.js": "/Portfolio/bikestations/static/js/runtime-main.a4339c5c.js",
+    "runtime-main.js.map": "/Portfolio/bikestations/static/js/runtime-main.a4339c5c.js.map",
+    "static/js/2.3babf651.chunk.js": "/Portfolio/bikestations/static/js/2.3babf651.chunk.js",
+    "static/js/2.3babf651.chunk.js.map": "/Portfolio/bikestations/static/js/2.3babf651.chunk.js.map",
+    "static/js/3.a4bd097c.chunk.js": "/Portfolio/bikestations/static/js/3.a4bd097c.chunk.js",
+    "static/js/3.a4bd097c.chunk.js.map": "/Portfolio/bikestations/static/js/3.a4bd097c.chunk.js.map",
+    "index.html": "/Portfolio/bikestations/index.html",
+    "static/css/main.57733a28.chunk.css.map": "/Portfolio/bikestations/static/css/main.57733a28.chunk.css.map",
+    "static/js/2.3babf651.chunk.js.LICENSE.txt": "/Portfolio/bikestations/static/js/2.3babf651.chunk.js.LICENSE.txt",
+    "static/media/Navbar.module.css": "/Portfolio/bikestations/static/media/logo.d35109d4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d093c46.js",
+    "static/js/runtime-main.a4339c5c.js",
     "static/js/2.3babf651.chunk.js",
-    "static/css/main.ac802d66.chunk.css",
+    "static/css/main.57733a28.chunk.css",
     "static/js/main.ff28bd76.chunk.js"
   ]
 }
