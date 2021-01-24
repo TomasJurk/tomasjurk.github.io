@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac802d66.chunk.css",
-    "main.js": "/static/js/main.ff28bd76.chunk.js",
-    "main.js.map": "/static/js/main.ff28bd76.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3d093c46.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3d093c46.js.map",
-    "static/js/2.3babf651.chunk.js": "/static/js/2.3babf651.chunk.js",
-    "static/js/2.3babf651.chunk.js.map": "/static/js/2.3babf651.chunk.js.map",
-    "static/js/3.a4bd097c.chunk.js": "/static/js/3.a4bd097c.chunk.js",
-    "static/js/3.a4bd097c.chunk.js.map": "/static/js/3.a4bd097c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ac802d66.chunk.css.map": "/static/css/main.ac802d66.chunk.css.map",
-    "static/js/2.3babf651.chunk.js.LICENSE.txt": "/static/js/2.3babf651.chunk.js.LICENSE.txt",
-    "static/media/Navbar.module.css": "/static/media/logo.d35109d4.svg"
+    "main.css": "https://tomasjurk.github.io/Portfolio/bikestations/static/css/main.ac802d66.chunk.css",
+    "main.js": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/main.ff28bd76.chunk.js",
+    "main.js.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/main.ff28bd76.chunk.js.map",
+    "runtime-main.js": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/runtime-main.3d093c46.js",
+    "runtime-main.js.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/runtime-main.3d093c46.js.map",
+    "static/js/2.3babf651.chunk.js": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/2.3babf651.chunk.js",
+    "static/js/2.3babf651.chunk.js.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/2.3babf651.chunk.js.map",
+    "static/js/3.a4bd097c.chunk.js": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/3.a4bd097c.chunk.js",
+    "static/js/3.a4bd097c.chunk.js.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/3.a4bd097c.chunk.js.map",
+    "index.html": "https://tomasjurk.github.io/Portfolio/bikestations/index.html",
+    "static/css/main.ac802d66.chunk.css.map": "https://tomasjurk.github.io/Portfolio/bikestations/static/css/main.ac802d66.chunk.css.map",
+    "static/js/2.3babf651.chunk.js.LICENSE.txt": "https://tomasjurk.github.io/Portfolio/bikestations/static/js/2.3babf651.chunk.js.LICENSE.txt",
+    "static/media/Navbar.module.css": "https://tomasjurk.github.io/Portfolio/bikestations/static/media/logo.d35109d4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3d093c46.js",
