@@ -1,3 +1,1 @@
-My web page.
-
-Available at https://tomjurk.xyz
+https://tomasjurk.github.io
