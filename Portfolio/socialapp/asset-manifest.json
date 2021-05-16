@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.39e5e207.chunk.css",
+    "main.js": "/static/js/main.bb81bc74.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.c7e731b5.js",
+    "static/js/2.6741ca19.chunk.js": "/static/js/2.6741ca19.chunk.js",
+    "static/css/3.660cc530.chunk.css": "/static/css/3.660cc530.chunk.css",
+    "static/js/3.2838be3f.chunk.js": "/static/js/3.2838be3f.chunk.js",
+    "static/css/4.78336956.chunk.css": "/static/css/4.78336956.chunk.css",
+    "static/js/4.42fc9f1c.chunk.js": "/static/js/4.42fc9f1c.chunk.js",
+    "index.html": "/index.html",
+    "precache-manifest.279f6326945c84339fc4b50ac7614ef1.js": "/precache-manifest.279f6326945c84339fc4b50ac7614ef1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.660cc530.chunk.css.map": "/static/css/3.660cc530.chunk.css.map",
+    "static/css/4.78336956.chunk.css.map": "/static/css/4.78336956.chunk.css.map",
+    "static/css/main.39e5e207.chunk.css.map": "/static/css/main.39e5e207.chunk.css.map",
+    "static/media/Modal.module.css": "/static/media/close-btn.ce1de955.svg",
+    "static/media/Post.module.css": "/static/media/edit.70454fa7.svg",
+    "static/media/NavigationItems.module.css": "/static/media/logo.9cc8b98e.svg",
+    "static/media/NewPost.module.css": "/static/media/plus.0113e0f1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7e731b5.js",
+    "static/js/2.6741ca19.chunk.js",
+    "static/css/main.39e5e207.chunk.css",
+    "static/js/main.bb81bc74.chunk.js"
+  ]
+}
