@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/socialapp/static/css/main.44d75a00.chunk.css",
-    "main.js": "/Portfolio/socialapp/static/js/main.6cb7ff73.chunk.js",
-    "runtime-main.js": "/Portfolio/socialapp/static/js/runtime-main.d317f014.js",
-    "static/js/2.6741ca19.chunk.js": "/Portfolio/socialapp/static/js/2.6741ca19.chunk.js",
-    "static/css/3.660cc530.chunk.css": "/Portfolio/socialapp/static/css/3.660cc530.chunk.css",
-    "static/js/3.2838be3f.chunk.js": "/Portfolio/socialapp/static/js/3.2838be3f.chunk.js",
-    "static/css/4.662fc94e.chunk.css": "/Portfolio/socialapp/static/css/4.662fc94e.chunk.css",
-    "static/js/4.42fc9f1c.chunk.js": "/Portfolio/socialapp/static/js/4.42fc9f1c.chunk.js",
-    "index.html": "/Portfolio/socialapp/index.html",
-    "precache-manifest.5b6053d3518328b527dc4f899038cf2c.js": "/Portfolio/socialapp/precache-manifest.5b6053d3518328b527dc4f899038cf2c.js",
-    "service-worker.js": "/Portfolio/socialapp/service-worker.js",
-    "static/css/3.660cc530.chunk.css.map": "/Portfolio/socialapp/static/css/3.660cc530.chunk.css.map",
-    "static/css/4.662fc94e.chunk.css.map": "/Portfolio/socialapp/static/css/4.662fc94e.chunk.css.map",
-    "static/css/main.44d75a00.chunk.css.map": "/Portfolio/socialapp/static/css/main.44d75a00.chunk.css.map",
-    "static/media/Modal.module.css": "/Portfolio/socialapp/static/media/close-btn.ce1de955.svg",
-    "static/media/Post.module.css": "/Portfolio/socialapp/static/media/edit.70454fa7.svg",
-    "static/media/NavigationItems.module.css": "/Portfolio/socialapp/static/media/logo.9cc8b98e.svg",
-    "static/media/NewPost.module.css": "/Portfolio/socialapp/static/media/plus.0113e0f1.svg"
+    "main.css": "/static/css/main.39e5e207.chunk.css",
+    "main.js": "/static/js/main.80fa6354.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.c7e731b5.js",
+    "static/js/2.6741ca19.chunk.js": "/static/js/2.6741ca19.chunk.js",
+    "static/css/3.660cc530.chunk.css": "/static/css/3.660cc530.chunk.css",
+    "static/js/3.2838be3f.chunk.js": "/static/js/3.2838be3f.chunk.js",
+    "static/css/4.78336956.chunk.css": "/static/css/4.78336956.chunk.css",
+    "static/js/4.42fc9f1c.chunk.js": "/static/js/4.42fc9f1c.chunk.js",
+    "index.html": "/index.html",
+    "precache-manifest.51c45e8c7660d16ae5a390d63284a0e9.js": "/precache-manifest.51c45e8c7660d16ae5a390d63284a0e9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.660cc530.chunk.css.map": "/static/css/3.660cc530.chunk.css.map",
+    "static/css/4.78336956.chunk.css.map": "/static/css/4.78336956.chunk.css.map",
+    "static/css/main.39e5e207.chunk.css.map": "/static/css/main.39e5e207.chunk.css.map",
+    "static/media/Modal.module.css": "/static/media/close-btn.ce1de955.svg",
+    "static/media/Post.module.css": "/static/media/edit.70454fa7.svg",
+    "static/media/NavigationItems.module.css": "/static/media/logo.9cc8b98e.svg",
+    "static/media/NewPost.module.css": "/static/media/plus.0113e0f1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d317f014.js",
+    "static/js/runtime-main.c7e731b5.js",
     "static/js/2.6741ca19.chunk.js",
-    "static/css/main.44d75a00.chunk.css",
-    "static/js/main.6cb7ff73.chunk.js"
+    "static/css/main.39e5e207.chunk.css",
+    "static/js/main.80fa6354.chunk.js"
   ]
 }
