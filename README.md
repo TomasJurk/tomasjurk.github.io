@@ -1,1 +1,0 @@
-https://tomasjurk.github.io

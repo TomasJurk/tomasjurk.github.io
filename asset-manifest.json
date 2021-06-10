@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15069faf.chunk.css",
+    "main.js": "/static/js/main.c55e66da.chunk.js",
+    "main.js.map": "/static/js/main.c55e66da.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.27e5f413.js",
+    "runtime-main.js.map": "/static/js/runtime-main.27e5f413.js.map",
+    "static/js/2.eeee112b.chunk.js": "/static/js/2.eeee112b.chunk.js",
+    "static/js/2.eeee112b.chunk.js.map": "/static/js/2.eeee112b.chunk.js.map",
+    "static/js/3.9fd01b9c.chunk.js": "/static/js/3.9fd01b9c.chunk.js",
+    "static/js/3.9fd01b9c.chunk.js.map": "/static/js/3.9fd01b9c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.15069faf.chunk.css.map": "/static/css/main.15069faf.chunk.css.map",
+    "static/js/2.eeee112b.chunk.js.LICENSE.txt": "/static/js/2.eeee112b.chunk.js.LICENSE.txt",
+    "static/media/Hobbies.module.css": "/static/media/right-arrow.42cc6537.svg",
+    "static/media/App.module.css": "/static/media/space_obj.e4ee8b95.png",
+    "static/media/Projects.module.css": "/static/media/yt_app.651a03b2.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27e5f413.js",
+    "static/js/2.eeee112b.chunk.js",
+    "static/css/main.15069faf.chunk.css",
+    "static/js/main.c55e66da.chunk.js"
+  ]
+}
