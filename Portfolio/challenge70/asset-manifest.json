@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/challenge70/static/css/main.440e3fbe.chunk.css",
-    "main.js": "/Portfolio/challenge70/static/js/main.f4fb5367.chunk.js",
-    "main.js.map": "/Portfolio/challenge70/static/js/main.f4fb5367.chunk.js.map",
+    "main.css": "/Portfolio/challenge70/static/css/main.454f5167.chunk.css",
+    "main.js": "/Portfolio/challenge70/static/js/main.e36aef94.chunk.js",
+    "main.js.map": "/Portfolio/challenge70/static/js/main.e36aef94.chunk.js.map",
     "runtime-main.js": "/Portfolio/challenge70/static/js/runtime-main.5a799370.js",
     "runtime-main.js.map": "/Portfolio/challenge70/static/js/runtime-main.5a799370.js.map",
     "static/js/2.5c0a4255.chunk.js": "/Portfolio/challenge70/static/js/2.5c0a4255.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.cb8bf232.chunk.js": "/Portfolio/challenge70/static/js/3.cb8bf232.chunk.js",
     "static/js/3.cb8bf232.chunk.js.map": "/Portfolio/challenge70/static/js/3.cb8bf232.chunk.js.map",
     "index.html": "/Portfolio/challenge70/index.html",
-    "static/css/main.440e3fbe.chunk.css.map": "/Portfolio/challenge70/static/css/main.440e3fbe.chunk.css.map",
+    "static/css/main.454f5167.chunk.css.map": "/Portfolio/challenge70/static/css/main.454f5167.chunk.css.map",
     "static/js/2.5c0a4255.chunk.js.LICENSE.txt": "/Portfolio/challenge70/static/js/2.5c0a4255.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a799370.js",
     "static/js/2.5c0a4255.chunk.js",
-    "static/css/main.440e3fbe.chunk.css",
-    "static/js/main.f4fb5367.chunk.js"
+    "static/css/main.454f5167.chunk.css",
+    "static/js/main.e36aef94.chunk.js"
   ]
 }
