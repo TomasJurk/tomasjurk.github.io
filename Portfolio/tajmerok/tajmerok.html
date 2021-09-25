@@ -23,11 +23,11 @@
             const currentTime = new Date();
             const deadline = new Date('26 September 2021 00:00');
             const timeLeft = deadline - currentTime;
-            const hours = Math.floor(timeLeft / 3600000);
-            const minutes = Math.floor((timeLeft / 60000) % 60);
-            const seconds = Math.floor((timeLeft / 1000) % 60);
+            const hours = '0' + Math.floor(timeLeft / 3600000);
+            const minutes = '0' + Math.floor((timeLeft / 60000) % 60);
+            const seconds = '0' + Math.floor((timeLeft / 1000) % 60);
 
-            timerDisplay.innerText = `${hours}:${minutes}:${seconds}`;
+            timerDisplay.innerText = `${hours.slice(-2)}:${minutes.slice(-2)}:${seconds.slice(-2)}`;
         } 
 
         stratTime();
