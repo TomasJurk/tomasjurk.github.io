@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEADLINE</title>
+    <style>
+        h1 {
+            margin: 35vh auto;
+            text-align: center;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>00:00:00</h1>
+
+    <script>
+        const timerDisplay = document.querySelector('h1');
+
+        const stratTime = () => {
+            const currentTime = new Date();
+            const deadline = new Date('07 October 2021 00:00');
+            const timeLeft = deadline - currentTime;
+            const hours = '0' + Math.floor(timeLeft / 3600000);
+            const minutes = '0' + Math.floor((timeLeft / 60000) % 60);
+            const seconds = '0' + Math.floor((timeLeft / 1000) % 60);
+
+            timerDisplay.innerText = `${hours.slice(-2)}:${minutes.slice(-2)}:${seconds.slice(-2)}`;
+        } 
+
+        stratTime();
+        setInterval(stratTime, 1000);
+        
+    </script>
+</body>
+</html>
