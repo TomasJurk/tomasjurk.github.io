@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pindos calc</title>
+    <style>
+        body {
+            background-color: lightblue;
+            color: red;
+        }
+        main {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input {
+            padding: 10px 15px;
+            border: 2px solid orangered;
+            background-color: transparent;
+            border-radius: 15px;
+            outline: none;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <input type="number" id="weight" oninput="calcFoo()">
+        <p id="kgToLb">
+            <span>0.00</span> kg = <span>0.00</span> lbs
+        </p>
+        <p id="lbToKg">
+            <span>0.00</span> lbs = <span>0.00</span> kg
+        </p>
+    </main>
+
+    <script>
+        const calcFoo = () => {
+            const input = document.getElementById('weight');
+            const kgToLb = document.getElementById('kgToLb');
+            const lbToKg = document.getElementById('lbToKg');
+
+            kgToLb.children[0].innerHTML = input.value;
+            kgToLb.children[1].innerHTML = (input.value * 2.20462).toFixed(2);
+            
+            lbToKg.children[0].innerHTML = input.value;
+            lbToKg.children[1].innerHTML = (input.value / 2.20462).toFixed(2);
+        }
+    </script>
+</body>
+</html>
