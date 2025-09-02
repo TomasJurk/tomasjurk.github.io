@@ -1,25 +1,19 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.95f585e6.chunk.css",
-    "main.js": "/resume/static/js/main.a7d8a209.chunk.js",
-    "main.js.map": "/resume/static/js/main.a7d8a209.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.9140a13d.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.9140a13d.js.map",
-    "static/js/2.923d5eff.chunk.js": "/resume/static/js/2.923d5eff.chunk.js",
-    "static/js/2.923d5eff.chunk.js.map": "/resume/static/js/2.923d5eff.chunk.js.map",
+    "main.css": "/resume/static/css/main.bffef93b.css",
+    "main.js": "/resume/static/js/main.df171a54.js",
+    "static/media/mano_foto.jpg": "/resume/static/media/mano_foto.3ccedc2f5e9fc5436c5b.jpg",
+    "static/media/skills-icon.svg": "/resume/static/media/skills-icon.5176e7fc92474f773bc7b091e1af72d5.svg",
+    "static/media/contact-icon.svg": "/resume/static/media/contact-icon.d5fe32932208692c26a9e0c9a8829516.svg",
+    "static/media/experience-icon.svg": "/resume/static/media/experience-icon.2900e629612ed8f05fad6eb5accdbf18.svg",
+    "static/media/profile-icon.svg": "/resume/static/media/profile-icon.1160cf904caee608a51076d56cdfb4e4.svg",
+    "static/media/education-icon.svg": "/resume/static/media/education-icon.f62bf65dc335005e0f7803f656f71dc2.svg",
     "index.html": "/resume/index.html",
-    "static/css/main.95f585e6.chunk.css.map": "/resume/static/css/main.95f585e6.chunk.css.map",
-    "static/js/2.923d5eff.chunk.js.LICENSE.txt": "/resume/static/js/2.923d5eff.chunk.js.LICENSE.txt",
-    "static/media/contact-icon.c41fe3b4.svg": "/resume/static/media/contact-icon.c41fe3b4.svg",
-    "static/media/education-icon.ae69a7a0.svg": "/resume/static/media/education-icon.ae69a7a0.svg",
-    "static/media/experience-icon.7ac4d86f.svg": "/resume/static/media/experience-icon.7ac4d86f.svg",
-    "static/media/App.css": "/resume/static/media/mano_foto.3ccedc2f.jpg",
-    "static/media/profile-icon.b6778bc4.svg": "/resume/static/media/profile-icon.b6778bc4.svg",
-    "static/media/skills-icon.1333f293.svg": "/resume/static/media/skills-icon.1333f293.svg"
+    "main.bffef93b.css.map": "/resume/static/css/main.bffef93b.css.map",
+    "main.df171a54.js.map": "/resume/static/js/main.df171a54.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9140a13d.js",
-    "static/js/2.923d5eff.chunk.js",
-    "static/css" 
-    ]
-  }
+    "static/css/main.bffef93b.css",
+    "static/js/main.df171a54.js"
+  ]
+}
