@@ -1,0 +1,40 @@
+{
+    "experience": [
+        {
+            "placeName": "Neonomics, Oslo, Norway",
+            "period": "Dec. 2021 - Nov. 2025",
+            "position": "Frontend Engineer",
+            "description": "Built Angular web applications for open banking payments, user profiles, and customer dashboards, emphasizing accessibility, UX, and testability; also worked on a Flutter mobile app for iOS and Android. Contributed to some backend Java maintenance."
+        },
+        {
+            "placeName": "Tesla Motors, Oslo, Norway",
+            "period": "Sep. 2019 - Jun. 2021",
+            "position": "Parts advisor",
+            "description": "Managed parts inventory and distribution, supported technicians and customers, and handled requests through internal service applications."
+        },
+        {
+            "placeName": "New Wave Media, Remote",
+            "period": "Sep. 2018 - Sep. 2019",
+            "position": "Frontend engineer",
+            "description": "Developed web applications and connected them to REST APIs using Angular 2+; improved user experience and ensured the code was clean and maintainable."
+        },
+        {
+            "placeName": "Freelance Web Developer, Remote",
+            "period": "Jan. 2017 - Aug. 2018",
+            "position": "Web developer",
+            "description": "Static websites mostly for small local businesses development with HTML, CSS and JavaScript."
+        },
+        {
+            "placeName": "ACE Logistics, Vilnius, Lithuania",
+            "period": "Feb. 2014 - Jan. 2018",
+            "position": "Air freight logistics coordinator",
+            "description": "Air freight transportation from all over the world to Lithuania."
+        },
+        {
+            "placeName": "Energetikos Montazas, Visaginas, Lithuania",
+            "period": "Sep. 2011 - Dec. 2013",
+            "position": "Road freight logistics coordinator",
+            "description": "Coordination of freight trucks movement through Europe."
+        }
+    ]
+}
