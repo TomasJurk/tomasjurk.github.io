@@ -1,0 +1,85 @@
+{
+    "fullName": "Tomas Jurksys",
+    "title": "Frontend engineer",
+    "aboutMe": "Frontend engineer with strong expertise in TypeScript, focused on building user-friendly, accessible, and maintainable web applications. Experienced with Angular, React and exploring Flutter mobile app development out of personal interest, with a passion for creating reusable components, improving user experience, and delivering high-quality, scalable code.",
+    "contact": [{ "phone": "" }, { "email": "" }, { "linkedin": "" }],
+    "skills": [
+        {
+            "title": "Technical",
+            "list": [
+                "React",
+                "Angular",
+                "TypeScript",
+                "Javascript",
+                "Jasmine",
+                "NgMocks",
+                "Flutter",
+                "Java (Basics)",
+                "Figma",
+                "Git",
+                "CI/CD",
+                "Docker"
+            ]
+        },
+        {
+            "title": "Personal",
+            "list": [
+                "Collaboration & teamwork",
+                "Continuous learner",
+                "Ownership & accountability",
+                "Analytical thinking",
+                "Curious & eager to understand how things work"
+            ]
+        },
+        {
+            "title": "Languages",
+            "list": ["English", "Russian", "Lithuania", "Norwegian (B1, actively learning)"]
+        }
+    ],
+    "experience": [
+        {
+            "placeName": "Neonomics, Oslo, Norway",
+            "period": "Dec. 2021 - Nov. 2025",
+            "position": "Frontend Engineer",
+            "description": "Built Angular web applications for open banking payments, user profiles, and customer dashboards, emphasizing accessibility, UX, and testability; also work on a Flutter mobile app for iOS and Android. Contributed to some backend Java maintenance."
+        },
+        {
+            "placeName": "Tesla Motors, Oslo, Norway",
+            "period": "Sep. 2019 - Sep. 2021",
+            "position": "Parts advisor",
+            "description": "Managed parts inventory and distribution, supported technicians and customers, and handled requests through internal service applications."
+        },
+        {
+            "placeName": "New Wave Media, Remote",
+            "period": "Sep. 2018 - Aug. 2019",
+            "position": "Frontend engineer",
+            "description": "Developed web applications using Angular and RxJS, integrating them with REST APIs for a platform offering health and wellness treatments. Improved user experience by implementing clear, intuitive user flows and functional UI features."
+        },
+        {
+            "placeName": "Freelance Web Developer, Remote",
+            "period": "Jan. 2017 - Aug. 2019",
+            "position": "Web developer",
+            "description": "Built responsive websites for small local businesses using HTML, CSS, JavaScript, and React. Worked directly with clients to understand their needs and deliver functional, user-friendly pages."
+        },
+        {
+            "placeName": "ACE Logistics, Vilnius, Lithuania",
+            "period": "Feb. 2014 - Jan. 2018",
+            "position": "Air freight logistics coordinator",
+            "description": "Coordinated air freight transportation from international locations to Lithuania."
+        }
+    ],
+    "education": [
+        {
+            "placeName": "Codeacademy, Vilnius, Lithuania",
+            "period": "",
+            "position": "Frontend Development",
+            "description": "Focused on modern frontend frameworks and tools, including TypeScript, Angular, ReactJS, VueJS, and Node.js."
+        },
+        {
+            "placeName": "Vilnius Law and Business College, Vilnius, Lithuania",
+            "period": "",
+            "position": "Bachelor in Finance",
+            "description": "Focused on financial management, investment analysis, and accounting fundamentals."
+        }
+    ]
+}
