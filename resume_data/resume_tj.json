@@ -72,13 +72,13 @@
         {
             "placeName": "Codeacademy, Vilnius, Lithuania",
             "period": "",
-            "position": "Frontend Development",
+            "qualification": "Frontend Development",
             "description": "Focused on modern frontend frameworks and tools, including TypeScript, Angular, ReactJS, VueJS, and Node.js."
         },
         {
             "placeName": "Vilnius Law and Business College, Vilnius, Lithuania",
             "period": "",
-            "position": "Bachelor in Finance",
+            "qualification": "Bachelor in Finance",
             "description": "Focused on financial management, investment analysis, and accounting fundamentals."
         }
     ]
