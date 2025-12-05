@@ -2,7 +2,7 @@
     "fullName": "Tomas Jurksys",
     "title": "Frontend engineer",
     "aboutMe": "Frontend engineer with strong expertise in TypeScript, focused on building user-friendly, accessible, and maintainable web applications. Experienced with Angular, React and exploring Flutter mobile app development out of personal interest, with a passion for creating reusable components, improving user experience, and delivering high-quality, scalable code.",
-    "contact": [{ "phone": "" }, { "email": "" }, { "linkedin": "https://www.linkedin.com/in/jurksys/" }],
+    "contact": { "phone": "", "email": "", "linkedin": "https://www.linkedin.com/in/jurksys/" },
     "skills": [
         {
             "title": "Technical",
