@@ -3,39 +3,29 @@
     "title": "Frontend engineer",
     "aboutMe": "Frontend engineer with strong expertise in TypeScript, focused on building user-friendly, accessible, and maintainable web applications. Experienced with Angular, React and exploring Flutter mobile app development out of personal interest, with a passion for creating reusable components, improving user experience, and delivering high-quality, scalable code.",
     "contact": { "phone": "", "email": "", "linkedin": "https://www.linkedin.com/in/jurksys/" },
-    "skills": [
-        {
-            "title": "Technical",
-            "list": [
-                "React",
-                "Angular",
-                "TypeScript",
-                "Javascript",
-                "Jasmine",
-                "NgMocks",
-                "Flutter",
-                "Java (Basics)",
-                "Figma",
-                "Git",
-                "CI/CD",
-                "Docker"
-            ]
-        },
-        {
-            "title": "Personal",
-            "list": [
-                "Collaboration & teamwork",
-                "Continuous learner",
-                "Ownership & accountability",
-                "Analytical thinking",
-                "Curious & eager to understand how things work"
-            ]
-        },
-        {
-            "title": "Languages",
-            "list": ["English", "Russian", "Lithuania", "Norwegian (B1, actively learning)"]
-        }
-    ],
+    "skills": {
+        "technical": [
+            "React",
+            "Angular",
+            "TypeScript",
+            "Javascript",
+            "Jasmine",
+            "NgMocks",
+            "Flutter",
+            "Java (Basics)",
+            "Figma",
+            "Git",
+            "CI/CD",
+            "Docker"
+        ],
+        "personal": [
+            "Collaboration & teamwork",
+            "Continuous learner",
+            "Ownership & accountability",
+            "Analytical thinking",
+            "Curious & eager to understand how things work"
+        ]
+    },
     "experience": [
         {
             "placeName": "Neonomics, Oslo, Norway",
@@ -73,7 +63,7 @@
             "placeName": "Codeacademy, Vilnius, Lithuania",
             "period": "",
             "qualification": "Frontend Development",
-            "description": "Focused on modern frontend frameworks and tools, including TypeScript, Angular, ReactJS, VueJS, and Node.js."
+            "description": "Focused studies of frontend development and tools, including TypeScript, Angular, ReactJS, VueJS, and Node.js."
         },
         {
             "placeName": "Vilnius Law and Business College, Vilnius, Lithuania",
